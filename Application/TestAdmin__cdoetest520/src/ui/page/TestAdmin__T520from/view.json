@@ -1,0 +1,668 @@
+{
+  "key" : 1,
+  "type" : "DesignerPage",
+  "version" : "1.0.2",
+  "props" : {
+    "name" : "DesignerPage_1",
+    "isPullRefresh" : false,
+    "requireAuth" : false,
+    "elementStyle" : false
+  },
+  "on" : { },
+  "elements" : [ {
+    "key" : 1779258560307000,
+    "type" : "form",
+    "props" : {
+      "col" : 1,
+      "labelPosition" : "top",
+      "labelWidth" : 120,
+      "name" : "form_0",
+      "flex" : false,
+      "hidden" : false,
+      "disabled" : false,
+      "readonly" : false,
+      "dataSourceId" : "cust000001WllDMfqeh6",
+      "dataSource" : "TestAdmin__T520__CST",
+      "dataSourceType" : "Entity",
+      "layout" : {
+        "key" : "one_one_one",
+        "value" : [ 8, 8, 8 ]
+      }
+    },
+    "attrs" : { },
+    "on" : { },
+    "elements" : [ {
+      "key" : 1779258551851006,
+      "type" : "row",
+      "props" : {
+        "layout" : {
+          "pc" : {
+            "key" : "one_one_one",
+            "value" : [ 8, 8, 8 ]
+          },
+          "pad" : {
+            "key" : "pad1",
+            "value" : [ 24 ]
+          },
+          "phone" : {
+            "key" : "phone1",
+            "value" : [ 24 ]
+          }
+        },
+        "type" : "",
+        "justify" : "",
+        "name" : "row_0"
+      },
+      "attrs" : { },
+      "on" : { },
+      "elements" : [ {
+        "key" : 1779258551851003,
+        "type" : "col",
+        "props" : {
+          "type" : "",
+          "align" : "left",
+          "verticalAlign" : "",
+          "justify" : "",
+          "bottomBorder" : true,
+          "lg" : 8,
+          "md" : 8,
+          "sm" : 24,
+          "xs" : 24,
+          "name" : "col_0"
+        },
+        "attrs" : { },
+        "on" : { },
+        "elements" : [ {
+          "key" : 1779258551851002,
+          "type" : "input",
+          "props" : {
+            "label" : "名称",
+            "type" : "text",
+            "transmitStyle" : true,
+            "customValidateContent" : "// return false;\n// return {result:false, message:''};",
+            "maxlength" : 255,
+            "maxWidth" : "100%",
+            "dataField" : "name",
+            "dataFieldType" : "xs_string",
+            "name" : "input_0"
+          },
+          "attrs" : { },
+          "on" : { },
+          "elements" : [ ],
+          "dataBinding" : {
+            "default" : {
+              "model" : [ "form_0", "name" ]
+            }
+          },
+          "widget2" : false,
+          "hasCustomPanel" : false
+        } ],
+        "widget2" : false,
+        "hasCustomPanel" : false
+      }, {
+        "key" : 1779258551851005,
+        "type" : "col",
+        "props" : {
+          "type" : "",
+          "align" : "left",
+          "verticalAlign" : "",
+          "justify" : "",
+          "bottomBorder" : true,
+          "lg" : 8,
+          "md" : 8,
+          "sm" : 24,
+          "xs" : 24,
+          "name" : "col_1"
+        },
+        "attrs" : { },
+        "on" : { },
+        "elements" : [ {
+          "key" : 1779258551851004,
+          "type" : "inputnumber",
+          "props" : {
+            "label" : "num1",
+            "precision" : 0,
+            "customValidateContent" : "// return false;\n// return {result:false, message:''};",
+            "maxWidth" : "100%",
+            "dataField" : "TestAdmin__num1__CST",
+            "dataFieldType" : "xs_decimal",
+            "name" : "inputnumber_0"
+          },
+          "attrs" : { },
+          "on" : { },
+          "elements" : [ ],
+          "dataBinding" : {
+            "default" : {
+              "model" : [ "form_0", "TestAdmin__num1__CST" ]
+            }
+          },
+          "widget2" : false,
+          "hasCustomPanel" : false
+        } ],
+        "widget2" : false,
+        "hasCustomPanel" : false
+      } ],
+      "widget2" : false,
+      "hasCustomPanel" : false
+    }, {
+      "key" : 1779258551851009,
+      "type" : "container",
+      "props" : {
+        "direction" : "row",
+        "justify" : "flex-start",
+        "alignItems" : "flex-start",
+        "align" : "center",
+        "singleline" : true,
+        "name" : "container_0",
+        "flex" : false,
+        "bottom" : false,
+        "isFixedTop" : false,
+        "noSpacingButtons" : false,
+        "hidden" : false
+      },
+      "attrs" : { },
+      "on" : { },
+      "elements" : [ {
+        "key" : 1779258551851007,
+        "type" : "button",
+        "props" : {
+          "text" : "保存",
+          "type" : "primary",
+          "size" : "large",
+          "shape" : "square",
+          "iconAlign" : "left",
+          "style" : "margin-right:24px;",
+          "class" : "ivu-btn-auto-margin",
+          "name" : "button_0"
+        },
+        "attrs" : { },
+        "on" : {
+          "click" : "butto_click_1779258551851007"
+        },
+        "elements" : [ ],
+        "widget2" : false,
+        "hasCustomPanel" : false
+      }, {
+        "key" : 1779258551851008,
+        "type" : "button",
+        "props" : {
+          "text" : "重置",
+          "type" : "ghost",
+          "size" : "large",
+          "shape" : "square",
+          "iconAlign" : "left",
+          "style" : "margin-right:24px;margin-left:0px",
+          "class" : "ivu-btn-auto-margin",
+          "name" : "button_1"
+        },
+        "attrs" : { },
+        "on" : {
+          "click" : "butto_click_1779258551851008"
+        },
+        "elements" : [ ],
+        "widget2" : false,
+        "hasCustomPanel" : false
+      } ],
+      "labelColSpan" : 8,
+      "labelWidth" : "calc(100% / 24 * 8)",
+      "widget2" : false,
+      "hasCustomPanel" : false
+    } ],
+    "labelColSpan" : 8,
+    "labelWidth" : "calc(100% / 24 * 8)",
+    "dataBinding" : {
+      "default" : {
+        "model" : [ "form_0" ]
+      }
+    },
+    "widget2" : false,
+    "hasCustomPanel" : false
+  }, {
+    "key" : 1779258598870002,
+    "type" : "datagrid",
+    "props" : {
+      "style" : "",
+      "class" : "",
+      "customValidateContent" : "// return false;\n// return {result:false, message:''};",
+      "name" : "datagrid_0"
+    },
+    "attrs" : { },
+    "on" : { },
+    "elements" : [ {
+      "key" : 1779258551851012,
+      "type" : "condition",
+      "props" : {
+        "labelWidth" : 120,
+        "dataSource" : "TestAdmin__T520__CST",
+        "dataSourceId" : "cust000001WllDMfqeh6",
+        "dataSourceType" : "Entity",
+        "labelPosition" : "top",
+        "layout" : {
+          "key" : "one_one_one",
+          "value" : [ 8, 8, 8 ]
+        },
+        "name" : "condition_0"
+      },
+      "attrs" : { },
+      "on" : { },
+      "elements" : [ {
+        "key" : 1779258551851017,
+        "type" : "row",
+        "props" : {
+          "layout" : {
+            "pc" : {
+              "key" : "one_one_one",
+              "value" : [ 8, 8, 8 ]
+            },
+            "pad" : {
+              "key" : "pad1",
+              "value" : [ 24 ]
+            },
+            "phone" : {
+              "key" : "phone1",
+              "value" : [ 24 ]
+            }
+          },
+          "type" : "",
+          "justify" : "",
+          "name" : "row_1"
+        },
+        "attrs" : { },
+        "on" : { },
+        "elements" : [ {
+          "key" : 1779258551851014,
+          "type" : "col",
+          "props" : {
+            "type" : "",
+            "align" : "left",
+            "verticalAlign" : "",
+            "justify" : "",
+            "bottomBorder" : true,
+            "lg" : 8,
+            "md" : 8,
+            "sm" : 24,
+            "xs" : 24,
+            "name" : "col_2"
+          },
+          "attrs" : { },
+          "on" : { },
+          "elements" : [ {
+            "key" : 1779258551851013,
+            "type" : "input",
+            "props" : {
+              "label" : "名称",
+              "type" : "text",
+              "transmitStyle" : true,
+              "customValidateContent" : "// return false;\n// return {result:false, message:''};",
+              "maxlength" : 255,
+              "maxWidth" : "100%",
+              "dataField" : "name",
+              "dataFieldType" : "xs_string",
+              "name" : "input_1"
+            },
+            "attrs" : { },
+            "on" : { },
+            "elements" : [ ],
+            "dataBinding" : {
+              "default" : {
+                "model" : [ "table_0_condition", "queryInfo", "name" ]
+              }
+            },
+            "widget2" : false,
+            "hasCustomPanel" : false
+          } ],
+          "widget2" : false,
+          "hasCustomPanel" : false
+        }, {
+          "key" : 1779258551851016,
+          "type" : "col",
+          "props" : {
+            "type" : "",
+            "align" : "left",
+            "verticalAlign" : "",
+            "justify" : "",
+            "bottomBorder" : true,
+            "lg" : 8,
+            "md" : 8,
+            "sm" : 24,
+            "xs" : 24,
+            "name" : "col_3",
+            "style" : "box-shadow: none;"
+          },
+          "attrs" : { },
+          "on" : { },
+          "elements" : [ {
+            "key" : 1779258551851015,
+            "type" : "inputnumber",
+            "props" : {
+              "label" : "num1",
+              "precision" : 0,
+              "customValidateContent" : "// return false;\n// return {result:false, message:''};",
+              "maxWidth" : "100%",
+              "dataField" : "TestAdmin__num1__CST",
+              "dataFieldType" : "xs_decimal",
+              "name" : "inputnumber_1"
+            },
+            "attrs" : { },
+            "on" : { },
+            "elements" : [ ],
+            "dataBinding" : {
+              "default" : {
+                "model" : [ "table_0_condition", "queryInfo", "TestAdmin__num1__CST" ]
+              }
+            },
+            "widget2" : false,
+            "hasCustomPanel" : false
+          } ],
+          "widget2" : false,
+          "hasCustomPanel" : false
+        } ],
+        "widget2" : false,
+        "hasCustomPanel" : false
+      }, {
+        "key" : 1779258551851018,
+        "type" : "container",
+        "props" : {
+          "direction" : "row",
+          "justify" : "flex-start",
+          "alignItems" : "flex-start",
+          "align" : "center",
+          "class" : "form-buttons-container",
+          "style" : "padding: 10px 0 30px 0;",
+          "singleline" : true,
+          "name" : "container_1"
+        },
+        "attrs" : { },
+        "on" : { },
+        "elements" : [ {
+          "key" : 1779258551851000,
+          "type" : "button",
+          "props" : {
+            "text" : "搜索",
+            "type" : "primary",
+            "size" : "default",
+            "shape" : "square",
+            "iconAlign" : "left",
+            "style" : "margin-right: 20px;",
+            "class" : "ivu-btn-auto-margin",
+            "name" : "button_2"
+          },
+          "attrs" : { },
+          "on" : {
+            "click" : {
+              "actions" : [ {
+                "key" : "1779258553316",
+                "type" : "javaScriptCode",
+                "options" : {
+                  "content" : "// 当前表格\r\nvar _table = context.$component.table;\r\n\r\n// 获取查询条件\r\nvar condition = _table.getCondition();\r\n\r\n// 设置查询条件\r\nif(condition) {\r\n  _table.setCondition(condition);\r\n}\r\n\r\n// 执行查询\r\n_table.doQuery();"
+                },
+                "__nodeName" : "搜索",
+                "__nodeDesc" : ""
+              } ]
+            }
+          },
+          "elements" : [ ],
+          "widget2" : false,
+          "hasCustomPanel" : false
+        }, {
+          "key" : 1779258551851001,
+          "type" : "button",
+          "props" : {
+            "text" : "重置",
+            "type" : "primary",
+            "size" : "default",
+            "shape" : "square",
+            "iconAlign" : "left",
+            "style" : "margin-right: 20px;",
+            "class" : "ivu-btn-auto-margin",
+            "name" : "button_3"
+          },
+          "attrs" : { },
+          "on" : {
+            "click" : {
+              "actions" : [ {
+                "key" : "1779258553317",
+                "type" : "javaScriptCode",
+                "options" : {
+                  "content" : "// 当前表格\r\nvar _table = context.$component.table;\r\n\r\n// 重置查询条件\r\n_table.resetCondition();\r\n\r\n// 刷新表格\r\n_table.doQuery();"
+                },
+                "__nodeName" : "重置",
+                "__nodeDesc" : ""
+              } ]
+            }
+          },
+          "elements" : [ ],
+          "widget2" : false,
+          "hasCustomPanel" : false
+        } ],
+        "widget2" : false,
+        "hasCustomPanel" : false
+      } ],
+      "labelColSpan" : 8,
+      "labelWidth" : "calc(100% / 24 * 8)",
+      "dataBinding" : {
+        "default" : {
+          "model" : [ "table_0_condition", "queryInfo" ]
+        }
+      },
+      "widget2" : false,
+      "hasCustomPanel" : false
+    }, {
+      "key" : 1779258598870000,
+      "type" : "table",
+      "props" : {
+        "class" : "",
+        "style" : "",
+        "name" : "table_0",
+        "data" : [ ],
+        "columns" : [ {
+          "key" : "id",
+          "title" : "记录 ID",
+          "fieldType" : "xs_string_pk",
+          "fieldId" : "stup0000000000000000",
+          "showEditHover" : false,
+          "editable" : false,
+          "ellipsis" : true,
+          "category" : 3
+        }, {
+          "key" : "name",
+          "title" : "名称",
+          "fieldType" : "xs_string",
+          "fieldId" : "cust000001WllDMfqeh7",
+          "showEditHover" : false,
+          "editable" : false,
+          "ellipsis" : true,
+          "category" : 3
+        }, {
+          "key" : "TestAdmin__num1__CST",
+          "title" : "num1",
+          "fieldType" : "xs_decimal",
+          "fieldId" : "cust000001WlvUvcN61Y",
+          "showEditHover" : false,
+          "editable" : false,
+          "ellipsis" : true,
+          "category" : 4
+        }, {
+          "key" : "createdBy",
+          "title" : "创建人",
+          "fieldType" : "obj_reference",
+          "fieldId" : "stup00000000000002bJ",
+          "showEditHover" : false,
+          "editable" : false,
+          "ellipsis" : true,
+          "category" : 3,
+          "referenceFieldList" : [ {
+            "referenceObjectID" : "stad00000000000000GD",
+            "relationshipName" : "user",
+            "relationshipLabel" : "user",
+            "referenceObjectName" : "User"
+          }, {
+            "referenceObjectID" : "stad00000000000000GG",
+            "relationshipName" : "portal user",
+            "relationshipLabel" : "portal user",
+            "referenceObjectName" : "PortalUser"
+          } ],
+          "editorOpt" : {
+            "key" : 1779258551851010,
+            "type" : "referenceselector",
+            "props" : {
+              "label" : "创建人",
+              "selectType" : "dropdown",
+              "required" : true,
+              "customValidateContent" : "// return false;\n// return {result:false, message:''};",
+              "readonly" : false,
+              "disabled" : false,
+              "dataField" : "createdBy",
+              "dataFieldType" : "obj_reference",
+              "referenceObjId" : "stad00000000000000GG",
+              "referenceObjName" : "PortalUser",
+              "valueField" : "id",
+              "displayField" : "name",
+              "name" : "referenceselector_0"
+            },
+            "attrs" : { },
+            "on" : { },
+            "widget2" : false,
+            "elements" : [ ]
+          }
+        }, {
+          "key" : "createdDate",
+          "title" : "创建时间",
+          "fieldType" : "xs_dateTime",
+          "fieldId" : "stup00000000000002bK",
+          "showEditHover" : false,
+          "editable" : false,
+          "ellipsis" : true,
+          "category" : 3
+        }, {
+          "key" : "lastModifiedBy",
+          "title" : "最后修改人",
+          "fieldType" : "obj_reference",
+          "fieldId" : "stup00000000000002bL",
+          "showEditHover" : false,
+          "editable" : false,
+          "ellipsis" : true,
+          "category" : 3,
+          "referenceFieldList" : [ {
+            "referenceObjectID" : "stad00000000000000GD",
+            "relationshipName" : "user",
+            "relationshipLabel" : "user",
+            "referenceObjectName" : "User"
+          }, {
+            "referenceObjectID" : "stad00000000000000GG",
+            "relationshipName" : "portal user",
+            "relationshipLabel" : "portal user",
+            "referenceObjectName" : "PortalUser"
+          } ],
+          "editorOpt" : {
+            "key" : 1779258551851011,
+            "type" : "referenceselector",
+            "props" : {
+              "label" : "最后修改人",
+              "selectType" : "dropdown",
+              "required" : false,
+              "customValidateContent" : "// return false;\n// return {result:false, message:''};",
+              "readonly" : false,
+              "disabled" : false,
+              "dataField" : "lastModifiedBy",
+              "dataFieldType" : "obj_reference",
+              "referenceObjId" : "stad00000000000000GG",
+              "referenceObjName" : "PortalUser",
+              "valueField" : "id",
+              "displayField" : "name",
+              "name" : "referenceselector_0"
+            },
+            "attrs" : { },
+            "on" : { },
+            "widget2" : false,
+            "elements" : [ ]
+          }
+        }, {
+          "key" : "lastModifiedDate",
+          "title" : "最后修改时间",
+          "fieldType" : "xs_dateTime",
+          "fieldId" : "stup00000000000002bM",
+          "showEditHover" : false,
+          "editable" : false,
+          "ellipsis" : true,
+          "category" : 3
+        } ],
+        "height" : 600,
+        "editable" : false,
+        "stripe" : true,
+        "autoLoadData" : true,
+        "visibleRender" : false,
+        "rowIndex" : false,
+        "addRowIndex" : false,
+        "rowIndexContent" : "#",
+        "highlightRow" : false,
+        "multiSelect" : true,
+        "border" : false,
+        "showHeader" : true,
+        "omitColumnOverflow" : true,
+        "withContent" : true,
+        "transmitStyle" : true,
+        "dataSource" : "TestAdmin__T520__CST",
+        "dataSourceId" : "TestAdmin__T520__CST",
+        "rowClassName" : "//if (index === 1) {\n                    // return 'demo-table-info-row';",
+        "customClassName" : "",
+        "customStyle" : ""
+      },
+      "attrs" : { },
+      "on" : { },
+      "elements" : [ ],
+      "savedVariable" : { },
+      "labelColSpan" : 8,
+      "labelWidth" : "calc(100% / 24 * 8)",
+      "dataBinding" : {
+        "default" : {
+          "model" : [ "ts5201" ]
+        }
+      },
+      "widget2" : false,
+      "hasCustomPanel" : false
+    }, {
+      "key" : 1779258598870001,
+      "type" : "pager",
+      "props" : {
+        "name" : "pager_0",
+        "pageSize" : 10,
+        "pageSizeOpts" : [ 10, 20, 40, 100 ],
+        "size" : "default",
+        "sizerTransfer" : true,
+        "showElevator" : true,
+        "blurElevator" : true,
+        "showSizer" : true
+      },
+      "attrs" : { },
+      "on" : { },
+      "elements" : [ ],
+      "dataBinding" : {
+        "default" : {
+          "model" : [ "table_0_condition", "pageInfo" ]
+        }
+      },
+      "widget2" : false,
+      "hasCustomPanel" : false
+    } ],
+    "labelColSpan" : 8,
+    "labelWidth" : "calc(100% / 24 * 8)",
+    "dataBinding" : {
+      "default" : {
+        "model" : [ "ts5201" ]
+      }
+    },
+    "widget2" : false,
+    "hasCustomPanel" : false
+  } ],
+  "labelColSpan" : 8,
+  "labelWidth" : "calc(100% / 24 * 8)",
+  "dependencies" : [ {
+    "names" : {
+      "extendNames" : [ ],
+      "pageMasterNames" : [ ],
+      "cardNames" : [ ],
+      "widget2Ids" : [ ]
+    }
+  } ]
+}

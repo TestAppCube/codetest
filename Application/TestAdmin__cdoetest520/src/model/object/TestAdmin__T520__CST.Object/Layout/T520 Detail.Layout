@@ -5,7 +5,8 @@
 		"type": "",
 		"view": {
 			"fields": [
-				"name"
+				"name",
+				"TestAdmin__num1__CST"
 			],
 			"name": "__layout__TestAdmin__T520__CST__detail"
 		}
@@ -16,7 +17,7 @@
 	"fromInstall": null,
 	"id": "000D000001WllDMgz3DM",
 	"label": "T520 Detail",
-	"lastModifiedDate": "2026-05-20 04:03:47",
+	"lastModifiedDate": "2026-05-20 06:27:41",
 	"name": "T520 Detail",
 	"objectId": "cust000001WllDMfqeh6",
 	"objectId.__objectType": "Object",

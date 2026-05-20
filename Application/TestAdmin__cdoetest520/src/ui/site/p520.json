@@ -1,0 +1,275 @@
+{
+  "pageId" : "19e44161285-cd25859b-a4e0-4325-bc55-d51fc54d61be",
+  "pageName" : "p520",
+  "resources" : [ "0", "1", "2", "3", "4", "5" ],
+  "index" : 1,
+  "dimensions" : {
+    "1" : {
+      "width" : 1920,
+      "height" : 1080,
+      "headerVisible" : true,
+      "footerVisible" : true
+    }
+  },
+  "views" : {
+    "1" : {
+      "cells" : {
+        "skPageLayoutCell_19e44161285-cd25859b-a4e0-4325-bc55-d51fc54d61be_id-north" : {
+          "cellId" : "skPageLayoutCell_19e44161285-cd25859b-a4e0-4325-bc55-d51fc54d61be_id-north"
+        },
+        "skPageLayoutCell_19e44161285-cd25859b-a4e0-4325-bc55-d51fc54d61be_id-south" : {
+          "cellId" : "skPageLayoutCell_19e44161285-cd25859b-a4e0-4325-bc55-d51fc54d61be_id-south"
+        },
+        "skPageLayoutCell_19e44161285-cd25859b-a4e0-4325-bc55-d51fc54d61be_id-center" : {
+          "cellId" : "skPageLayoutCell_19e44161285-cd25859b-a4e0-4325-bc55-d51fc54d61be_id-center"
+        }
+      },
+      "layout" : {
+        "layoutId" : "22",
+        "showLayout" : true,
+        "layoutConfig" : {
+          "north" : {
+            "cellId" : "skPageLayoutCell_19e44161285-cd25859b-a4e0-4325-bc55-d51fc54d61be_id-north",
+            "size" : 100,
+            "width" : 0,
+            "height" : 0,
+            "width_percent" : 0.0,
+            "height_percent" : 0.0,
+            "closable" : false,
+            "spacing_open" : 0,
+            "resizable" : false
+          },
+          "south" : {
+            "cellId" : "skPageLayoutCell_19e44161285-cd25859b-a4e0-4325-bc55-d51fc54d61be_id-south",
+            "size" : 200,
+            "width" : 0,
+            "height" : 0,
+            "width_percent" : 0.0,
+            "height_percent" : 0.0,
+            "closable" : false,
+            "spacing_open" : 0,
+            "resizable" : false
+          },
+          "center" : {
+            "cellId" : "skPageLayoutCell_19e44161285-cd25859b-a4e0-4325-bc55-d51fc54d61be_id-center",
+            "size" : 500,
+            "width" : 0,
+            "height" : 0,
+            "width_percent" : 0.0,
+            "height_percent" : 0.0,
+            "closable" : false,
+            "spacing_open" : 0,
+            "resizable" : false
+          }
+        },
+        "layoutPageType" : [ "1", "2", "3", "4" ]
+      },
+      "absoluteWidgets" : [ {
+        "widgetId" : "1",
+        "isHidden" : false,
+        "isLocked" : false,
+        "widgetName" : "widget1",
+        "width" : 1920,
+        "height" : 461,
+        "left" : 0,
+        "top" : 0,
+        "orgCenterLeftVal" : "50%",
+        "orgCenterTopVal" : "50%",
+        "width_percent" : 0.0,
+        "height_percent" : 0.0,
+        "left_percent" : 0.0,
+        "top_percent" : 0.0,
+        "zindex" : 1,
+        "cells" : {
+          "skPageLayoutCell_absWid_1_id-center" : {
+            "cellId" : "skPageLayoutCell_absWid_1_id-center",
+            "widget" : {
+              "pageId" : "19e44161285-cd25859b-a4e0-4325-bc55-d51fc54d61be",
+              "widgetId" : "2",
+              "widgetName" : "widget1",
+              "widgetType" : "global_Vue3RosePieChartWidget",
+              "currentItemIdx" : 0,
+              "properties" : {
+                "hideDimension" : "true",
+                "absoluteLayout" : "false",
+                "layoutWidth" : "0",
+                "layoutHeight" : "0",
+                "layoutLeft" : "0",
+                "layoutTop" : "0",
+                "zIndex" : "1",
+                "PieChartDataConnector" : "",
+                "referTemplate" : "nantTemplate",
+                "accessControl" : "{}",
+                "lockByGroup" : "false",
+                "hideToolbar" : "false",
+                "parallaxBackground" : "false",
+                "parallaxBgUrlMoveRatio" : "1",
+                "layoutParentLeft" : "",
+                "layoutParentTop" : "",
+                "hasAreaSpecificEvents" : "false"
+              },
+              "events" : { },
+              "eventsArray" : [ ],
+              "sortOrder" : 2,
+              "items" : [ ],
+              "libWidget" : false,
+              "absWidget" : true
+            }
+          }
+        },
+        "anchorGroups" : [ ],
+        "layout" : {
+          "layoutId" : "1",
+          "showLayout" : true,
+          "layoutConfig" : {
+            "center" : {
+              "cellId" : "skPageLayoutCell_absWid_1_id-center",
+              "size" : 30,
+              "width" : 1920,
+              "height" : 461,
+              "width_percent" : 0.0,
+              "height_percent" : 0.0,
+              "closable" : false,
+              "spacing_open" : 0,
+              "resizable" : false
+            }
+          },
+          "layoutPageType" : [ "1", "2", "3", "4" ]
+        },
+        "line" : {
+          "on" : false,
+          "color" : "",
+          "width" : 0,
+          "type" : "solid",
+          "startLeft" : 0.0,
+          "startTop" : 0.0,
+          "endLeft" : 0.0,
+          "endTop" : 0.0,
+          "style" : ""
+        },
+        "autoHeight" : false,
+        "autoHeightAdapter" : false,
+        "pagePart" : "center"
+      }, {
+        "widgetId" : "3",
+        "isHidden" : false,
+        "isLocked" : false,
+        "widgetName" : "widget2",
+        "width" : 1920,
+        "height" : 621,
+        "left" : 0,
+        "top" : 459,
+        "orgCenterLeftVal" : "50%",
+        "orgCenterTopVal" : "50%",
+        "width_percent" : 0.0,
+        "height_percent" : 0.0,
+        "left_percent" : 0.0,
+        "top_percent" : 0.0,
+        "zindex" : 1,
+        "cells" : {
+          "skPageLayoutCell_absWid_3_id-center" : {
+            "cellId" : "skPageLayoutCell_absWid_3_id-center",
+            "widget" : {
+              "pageId" : "19e44161285-cd25859b-a4e0-4325-bc55-d51fc54d61be",
+              "widgetId" : "4",
+              "widgetName" : "widget2",
+              "widgetType" : "global_Vue3AreaMultiLineChartWidget",
+              "currentItemIdx" : 0,
+              "properties" : {
+                "hideDimension" : "true",
+                "absoluteLayout" : "false",
+                "layoutWidth" : "0",
+                "layoutHeight" : "0",
+                "layoutLeft" : "0",
+                "layoutTop" : "0",
+                "zIndex" : "1",
+                "BarOrLineChartDataConnector" : "",
+                "chooseTempID" : "0",
+                "accessControl" : "{}",
+                "lockByGroup" : "false",
+                "hideToolbar" : "false",
+                "parallaxBackground" : "false",
+                "parallaxBgUrlMoveRatio" : "1",
+                "layoutParentLeft" : "",
+                "layoutParentTop" : "",
+                "hasAreaSpecificEvents" : "false"
+              },
+              "events" : { },
+              "eventsArray" : [ ],
+              "sortOrder" : 0,
+              "items" : [ ],
+              "libWidget" : false,
+              "absWidget" : true
+            }
+          }
+        },
+        "anchorGroups" : [ ],
+        "layout" : {
+          "layoutId" : "1",
+          "showLayout" : true,
+          "layoutConfig" : {
+            "center" : {
+              "cellId" : "skPageLayoutCell_absWid_3_id-center",
+              "size" : 30,
+              "width" : 1920,
+              "height" : 621,
+              "width_percent" : 0.0,
+              "height_percent" : 0.0,
+              "closable" : false,
+              "spacing_open" : 0,
+              "resizable" : false
+            }
+          },
+          "layoutPageType" : [ "1", "2", "3", "4" ]
+        },
+        "line" : {
+          "on" : false,
+          "color" : "",
+          "width" : 0,
+          "type" : "solid",
+          "startLeft" : 0.0,
+          "startTop" : 0.0,
+          "endLeft" : 0.0,
+          "endTop" : 0.0,
+          "style" : ""
+        },
+        "autoHeight" : false,
+        "autoHeightAdapter" : false,
+        "pagePart" : "center"
+      } ],
+      "properties" : {
+        "flexi_page" : "false",
+        "page_background_html" : "",
+        "page_background" : "false",
+        "page_background_image" : "true",
+        "page_parallax" : "false",
+        "page_background_color" : "",
+        "page_background_image_url" : "",
+        "pageBgHtml" : "",
+        "page_background_image_repeat_options" : ""
+      },
+      "resources" : [ ],
+      "metaTags" : { }
+    }
+  },
+  "anchorGroups" : [ ],
+  "properties" : { },
+  "facets" : {
+    "page_title" : "p520",
+    "page_folder" : "003f000000kxaz1iXBOi",
+    "page_uri" : "p520",
+    "transition" : "",
+    "cache_control_max_age" : "",
+    "expires" : "",
+    "expiresFormatted" : "",
+    "page_keywords" : "",
+    "page_content" : "",
+    "page_description" : "",
+    "grid_x" : "20",
+    "grid_y" : "20",
+    "grid_color" : "#EEEEF3"
+  },
+  "pageLevelMacro" : { },
+  "layoutType" : "3",
+  "pageLocked" : false
+}

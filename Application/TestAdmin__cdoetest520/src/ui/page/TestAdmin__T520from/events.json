@@ -1,0 +1,9 @@
+[ {
+  "id" : "003h000001Wlvoug0Fo8",
+  "name" : "butto_click_1779258551851007",
+  "action" : "[{\"key\":\"17792585929602\",\"__handlerName\":\"formSaveHandler\",\"__nodeName\":\"提交表单\",\"type\":\"$form.save\",\"options\":[{\"id\":\"1779258560307000\",\"name\":\"form_0\"}]}]"
+}, {
+  "id" : "003h000001Wlvoug0Fo9",
+  "name" : "butto_click_1779258551851008",
+  "action" : "[{\"key\":\"17792585929611\",\"__handlerName\":\"formResetHandler\",\"__nodeName\":\"重置表单\",\"type\":\"$form.reset\",\"options\":[{\"id\":\"1779258560307000\",\"name\":\"form_0\"}]}]"
+} ]

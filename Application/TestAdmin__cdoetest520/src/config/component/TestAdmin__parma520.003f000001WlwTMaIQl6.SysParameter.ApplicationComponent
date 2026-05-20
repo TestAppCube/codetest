@@ -1,0 +1,18 @@
+{
+	"appId": "000f000001WlixyK5Ici",
+	"appId.__objectType": "Application",
+	"appId.name": "TestAdmin__cdoetest520",
+	"belongTo": null,
+	"category": null,
+	"createdDate": "2026-05-20 06:41:19",
+	"custom": true,
+	"fromInstall": null,
+	"id": "003f000001WlwTMaIQl6",
+	"lastModifiedDate": "2026-05-20 06:41:19",
+	"name": "TestAdmin__parma520",
+	"parent": "",
+	"protectMode": 0,
+	"seqNo": null,
+	"type": "SysParameter",
+	"visibility": 0
+}

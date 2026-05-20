@@ -1,0 +1,21 @@
+{
+	"belongTo": "000f000001WlixyK5Ici",
+	"belongTo.__objectType": "Application",
+	"belongTo.name": "TestAdmin__cdoetest520",
+	"createdDate": "2026-05-20 06:41:19",
+	"custom": true,
+	"defaultValue": "",
+	"description": "",
+	"fromInstall": null,
+	"id": "0025000001WlwTJcvYjQ",
+	"isDefault": true,
+	"isEncrypted": false,
+	"label": "parma520",
+	"lastModifiedDate": "2026-05-20 06:41:19",
+	"name": "TestAdmin__parma520",
+	"protectMode": 0,
+	"shareType": null,
+	"type": "string",
+	"value": "",
+	"visibility": 0
+}

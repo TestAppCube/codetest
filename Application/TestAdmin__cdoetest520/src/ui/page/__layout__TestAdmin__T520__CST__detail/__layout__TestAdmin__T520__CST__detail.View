@@ -19,11 +19,11 @@
 				}
 			],
 			"belongTo": null,
-			"createdDate": "2026-05-20 04:03:48",
+			"createdDate": "2026-05-20 06:27:42",
 			"custom": true,
 			"fromInstall": null,
-			"id": "003h000001WllDQtHDUW",
-			"lastModifiedDate": "2026-05-20 04:03:48",
+			"id": "003h000001WlvUzXLjMm",
+			"lastModifiedDate": "2026-05-20 06:27:42",
 			"name": "button_0_click",
 			"protectMode": 0,
 			"view": "003g000001WllDQs8oyG",
@@ -41,11 +41,11 @@
 				}
 			],
 			"belongTo": null,
-			"createdDate": "2026-05-20 04:03:48",
+			"createdDate": "2026-05-20 06:27:42",
 			"custom": true,
 			"fromInstall": null,
-			"id": "003h000001WllDQtHDUX",
-			"lastModifiedDate": "2026-05-20 04:03:48",
+			"id": "003h000001WlvUzXLjMn",
+			"lastModifiedDate": "2026-05-20 06:27:42",
 			"name": "button_1_click",
 			"protectMode": 0,
 			"view": "003g000001WllDQs8oyG",
@@ -57,7 +57,7 @@
 	"fromInstall": null,
 	"id": "003g000001WllDQs8oyG",
 	"label": "TestAdmin__T520__CST Detail",
-	"lastModifiedDate": "2026-05-20 04:03:48",
+	"lastModifiedDate": "2026-05-20 06:27:42",
 	"layer": "null",
 	"libraries": "[]",
 	"logo": null,
@@ -67,7 +67,7 @@
 	"protectMode": 0,
 	"referencePageId": null,
 	"type": "Page",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"viewData": {
 		"dependencies": [
 			{
@@ -123,19 +123,60 @@
 																]
 															}
 														},
-														"key": 1957174810889102,
+														"key": 1957184307900802,
 														"props": {
 															"dataField": "name",
 															"dataFieldType": "xs_string",
-															"label": "{\"en_US\":\"Name\",\"zh_CN\":\"名称\"}",
-															"name": "input_1779249828081",
+															"label": "名称",
+															"maxlength": 64,
+															"name": "input_1779258461729",
 															"readonly": false,
+															"required": false,
 															"type": "text"
 														},
 														"type": "input"
 													}
 												],
-												"key": 1957174810889101,
+												"key": 1957184307900801,
+												"on": {},
+												"props": {
+													"align": "left",
+													"lg": 8,
+													"md": 8,
+													"name": "col_3",
+													"sm": 24,
+													"xs": 24
+												},
+												"type": "col"
+											},
+											{
+												"attrs": {},
+												"elements": [
+													{
+														"dataBinding": {
+															"default": {
+																"model": [
+																	"form_0",
+																	"TestAdmin__num1__CST"
+																]
+															}
+														},
+														"key": 1957184307900804,
+														"props": {
+															"dataField": "TestAdmin__num1__CST",
+															"dataFieldType": "xs_decimal",
+															"label": "num1",
+															"max": 1000000000000000000,
+															"min": -1000000000000000000,
+															"name": "inputnumber_1779258461729",
+															"precision": 2,
+															"required": false,
+															"step": 0
+														},
+														"type": "inputnumber"
+													}
+												],
+												"key": 1957184307900803,
 												"on": {},
 												"props": {
 													"align": "left",
@@ -148,7 +189,7 @@
 												"type": "col"
 											}
 										],
-										"key": 1957174810889100,
+										"key": 1957184307900800,
 										"on": {},
 										"props": {
 											"layout": {
@@ -297,6 +338,10 @@
 						{
 							"fieldName": "name",
 							"mappingField": "name"
+						},
+						{
+							"fieldName": "TestAdmin__num1__CST",
+							"mappingField": "TestAdmin__num1__CST"
 						}
 					],
 					"type": "object",
@@ -307,6 +352,10 @@
 						{
 							"fieldName": "name",
 							"mappingField": "name"
+						},
+						{
+							"fieldName": "TestAdmin__num1__CST",
+							"mappingField": "TestAdmin__num1__CST"
 						}
 					],
 					"method": "save",
@@ -320,6 +369,10 @@
 						{
 							"fieldName": "name",
 							"mappingField": "name"
+						},
+						{
+							"fieldName": "TestAdmin__num1__CST",
+							"mappingField": "TestAdmin__num1__CST"
 						}
 					],
 					"method": "delete",
@@ -358,7 +411,7 @@
 				{
 					"_uid": 1,
 					"expand": false,
-					"label": "{\"en_US\":\"Name\",\"zh_CN\":\"名称\"}",
+					"label": "名称",
 					"name": "name",
 					"orign": [
 						{
@@ -370,6 +423,22 @@
 					"parentId": "form_0",
 					"rootInstanceId": "form_0",
 					"type": "xs_string"
+				},
+				{
+					"_uid": 2,
+					"expand": false,
+					"label": "num1",
+					"name": "TestAdmin__num1__CST",
+					"orign": [
+						{
+							"mappingField": "TestAdmin__num1__CST",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"parentId": "form_0",
+					"rootInstanceId": "form_0",
+					"type": "xs_decimal"
 				}
 			],
 			"mapping": [

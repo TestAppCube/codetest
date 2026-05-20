@@ -1,0 +1,54 @@
+swagger: "2.0"
+info:
+    description: OPEN API Swagger - 2.0
+    version: 1.0.0
+    title: Custom API Document
+schemes:
+    - http
+consumes:
+    - application/json
+produces:
+    - application/json
+paths:
+    /service/TestAdmin__cdoetest520/1.0.0/add520api:
+        post:
+            operationId: add520api
+            tags:
+                - TestAdmin__add520
+            parameters:
+                - name: add520api_Body
+                  in: body
+                  required: true
+                  schema:
+                    $ref: '#/definitions/add520api_Body'
+            responses:
+                200:
+                    description: 请求成功
+                    schema:
+                        $ref: '#/definitions/add520api_Response'
+                400:
+                    description: 错误请求
+definitions:
+    Global_TestAdmin__struct520:
+        type: object
+        properties:
+            name:
+                type: string
+            num:
+                type: number
+    add520api_Body:
+        description: definition for body parameters in add520api
+        required:
+            - struct520
+        type: object
+        properties:
+            struct520:
+                $ref: '#/definitions/Global_TestAdmin__struct520'
+    add520api_Response:
+        description: definition for responses in add520api
+        required:
+            - result
+        type: object
+        properties:
+            result:
+                type: string

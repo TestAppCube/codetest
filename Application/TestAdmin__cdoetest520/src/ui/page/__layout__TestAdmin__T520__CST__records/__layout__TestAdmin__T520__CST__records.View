@@ -19,11 +19,11 @@
 				}
 			],
 			"belongTo": null,
-			"createdDate": "2026-05-20 04:03:48",
+			"createdDate": "2026-05-20 06:27:42",
 			"custom": true,
 			"fromInstall": null,
-			"id": "003h000001WllDTds8fI",
-			"lastModifiedDate": "2026-05-20 04:03:48",
+			"id": "003h000001WlvV1ydvhA",
+			"lastModifiedDate": "2026-05-20 06:27:42",
 			"name": "button_16_click",
 			"protectMode": 0,
 			"view": "003g000001WllDTcjk92",
@@ -41,11 +41,11 @@
 				}
 			],
 			"belongTo": null,
-			"createdDate": "2026-05-20 04:03:48",
+			"createdDate": "2026-05-20 06:27:42",
 			"custom": true,
 			"fromInstall": null,
-			"id": "003h000001WllDTds8fJ",
-			"lastModifiedDate": "2026-05-20 04:03:48",
+			"id": "003h000001WlvV1ydvhB",
+			"lastModifiedDate": "2026-05-20 06:27:42",
 			"name": "button_21_click",
 			"protectMode": 0,
 			"view": "003g000001WllDTcjk92",
@@ -63,11 +63,11 @@
 				}
 			],
 			"belongTo": null,
-			"createdDate": "2026-05-20 04:03:48",
+			"createdDate": "2026-05-20 06:27:42",
 			"custom": true,
 			"fromInstall": null,
-			"id": "003h000001WllDTds8fK",
-			"lastModifiedDate": "2026-05-20 04:03:48",
+			"id": "003h000001WlvV1ydvhC",
+			"lastModifiedDate": "2026-05-20 06:27:42",
 			"name": "button_22_click",
 			"protectMode": 0,
 			"view": "003g000001WllDTcjk92",
@@ -85,11 +85,11 @@
 				}
 			],
 			"belongTo": null,
-			"createdDate": "2026-05-20 04:03:48",
+			"createdDate": "2026-05-20 06:27:42",
 			"custom": true,
 			"fromInstall": null,
-			"id": "003h000001WllDTds8fL",
-			"lastModifiedDate": "2026-05-20 04:03:48",
+			"id": "003h000001WlvV1ydvhD",
+			"lastModifiedDate": "2026-05-20 06:27:42",
 			"name": "button_23_click",
 			"protectMode": 0,
 			"view": "003g000001WllDTcjk92",
@@ -107,11 +107,11 @@
 				}
 			],
 			"belongTo": null,
-			"createdDate": "2026-05-20 04:03:48",
+			"createdDate": "2026-05-20 06:27:42",
 			"custom": true,
 			"fromInstall": null,
-			"id": "003h000001WllDTds8fM",
-			"lastModifiedDate": "2026-05-20 04:03:48",
+			"id": "003h000001WlvV1ydvhE",
+			"lastModifiedDate": "2026-05-20 06:27:42",
 			"name": "modal_1_on-ok",
 			"protectMode": 0,
 			"view": "003g000001WllDTcjk92",
@@ -129,11 +129,11 @@
 				}
 			],
 			"belongTo": null,
-			"createdDate": "2026-05-20 04:03:48",
+			"createdDate": "2026-05-20 06:27:42",
 			"custom": true,
 			"fromInstall": null,
-			"id": "003h000001WllDTds8fN",
-			"lastModifiedDate": "2026-05-20 04:03:48",
+			"id": "003h000001WlvV1ydvhF",
+			"lastModifiedDate": "2026-05-20 06:27:42",
 			"name": "modal_0_on-ok",
 			"protectMode": 0,
 			"view": "003g000001WllDTcjk92",
@@ -154,11 +154,11 @@
 				}
 			],
 			"belongTo": null,
-			"createdDate": "2026-05-20 04:03:48",
+			"createdDate": "2026-05-20 06:27:42",
 			"custom": true,
 			"fromInstall": null,
-			"id": "003h000001WllDTds8fO",
-			"lastModifiedDate": "2026-05-20 04:03:48",
+			"id": "003h000001WlvV1ydvhG",
+			"lastModifiedDate": "2026-05-20 06:27:42",
 			"name": "button_0_click",
 			"protectMode": 0,
 			"view": "003g000001WllDTcjk92",
@@ -176,11 +176,11 @@
 				}
 			],
 			"belongTo": null,
-			"createdDate": "2026-05-20 04:03:48",
+			"createdDate": "2026-05-20 06:27:42",
 			"custom": true,
 			"fromInstall": null,
-			"id": "003h000001WllDTds8fP",
-			"lastModifiedDate": "2026-05-20 04:03:48",
+			"id": "003h000001WlvV1ydvhH",
+			"lastModifiedDate": "2026-05-20 06:27:42",
 			"name": "button_15_click",
 			"protectMode": 0,
 			"view": "003g000001WllDTcjk92",
@@ -198,11 +198,11 @@
 				}
 			],
 			"belongTo": null,
-			"createdDate": "2026-05-20 04:03:48",
+			"createdDate": "2026-05-20 06:27:42",
 			"custom": true,
 			"fromInstall": null,
-			"id": "003h000001WllDTds8fQ",
-			"lastModifiedDate": "2026-05-20 04:03:48",
+			"id": "003h000001WlvV1ydvhI",
+			"lastModifiedDate": "2026-05-20 06:27:42",
 			"name": "button_24_click",
 			"protectMode": 0,
 			"view": "003g000001WllDTcjk92",
@@ -220,11 +220,11 @@
 				}
 			],
 			"belongTo": null,
-			"createdDate": "2026-05-20 04:03:48",
+			"createdDate": "2026-05-20 06:27:42",
 			"custom": true,
 			"fromInstall": null,
-			"id": "003h000001WllDTds8fR",
-			"lastModifiedDate": "2026-05-20 04:03:48",
+			"id": "003h000001WlvV1ydvhJ",
+			"lastModifiedDate": "2026-05-20 06:27:42",
 			"name": "modal_on-cancel_1545208415426026",
 			"protectMode": 0,
 			"view": "003g000001WllDTcjk92",
@@ -245,11 +245,11 @@
 				}
 			],
 			"belongTo": null,
-			"createdDate": "2026-05-20 04:03:48",
+			"createdDate": "2026-05-20 06:27:42",
 			"custom": true,
 			"fromInstall": null,
-			"id": "003h000001WllDTds8fS",
-			"lastModifiedDate": "2026-05-20 04:03:48",
+			"id": "003h000001WlvV1ydvhK",
+			"lastModifiedDate": "2026-05-20 06:27:42",
 			"name": "butto_click_1545274225904000",
 			"protectMode": 0,
 			"view": "003g000001WllDTcjk92",
@@ -261,7 +261,7 @@
 	"fromInstall": null,
 	"id": "003g000001WllDTcjk92",
 	"label": "TestAdmin__T520__CST Records",
-	"lastModifiedDate": "2026-05-20 04:03:48",
+	"lastModifiedDate": "2026-05-20 06:27:42",
 	"layer": "null",
 	"libraries": "[]",
 	"logo": null,
@@ -271,7 +271,7 @@
 	"protectMode": 0,
 	"referencePageId": null,
 	"type": "Page",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"viewData": {
 		"dependencies": [
 			{
@@ -327,19 +327,61 @@
 																		]
 																	}
 																},
-																"key": 1779249828492002,
+																"key": 1779258462413002,
 																"props": {
 																	"dataField": "name",
 																	"dataFieldType": "xs_string",
-																	"label": "{\"en_US\":\"Name\",\"zh_CN\":\"名称\"}",
-																	"name": "input_1779249828492",
+																	"label": "名称",
+																	"maxlength": 64,
+																	"name": "input_1779258462413",
 																	"readonly": false,
+																	"required": false,
 																	"type": "text"
 																},
 																"type": "input"
 															}
 														],
-														"key": 1779249828492001,
+														"key": 1779258462413001,
+														"on": {},
+														"props": {
+															"align": "left",
+															"lg": 8,
+															"md": 8,
+															"name": "col_3",
+															"sm": 24,
+															"xs": 24
+														},
+														"type": "col"
+													},
+													{
+														"attrs": {},
+														"elements": [
+															{
+																"dataBinding": {
+																	"default": {
+																		"model": [
+																			"Records_condition",
+																			"queryInfo",
+																			"TestAdmin__num1__CST"
+																		]
+																	}
+																},
+																"key": 1779258462413004,
+																"props": {
+																	"dataField": "TestAdmin__num1__CST",
+																	"dataFieldType": "xs_decimal",
+																	"label": "num1",
+																	"max": 1000000000000000000,
+																	"min": -1000000000000000000,
+																	"name": "inputnumber_1779258462413",
+																	"precision": 2,
+																	"required": false,
+																	"step": 0
+																},
+																"type": "inputnumber"
+															}
+														],
+														"key": 1779258462413003,
 														"on": {},
 														"props": {
 															"align": "left",
@@ -352,7 +394,7 @@
 														"type": "col"
 													}
 												],
-												"key": 1779249828492000,
+												"key": 1779258462413000,
 												"on": {},
 												"props": {
 													"layout": {
@@ -599,11 +641,19 @@
 							"class": "",
 							"columns": [
 								{
+									"category": 3,
 									"editable": false,
 									"fieldType": "xs_string",
 									"key": "name",
 									"showEditHover": true,
-									"title": "{\"en_US\":\"Name\",\"zh_CN\":\"名称\"}"
+									"title": "名称"
+								},
+								{
+									"editable": false,
+									"fieldType": "xs_decimal",
+									"key": "TestAdmin__num1__CST",
+									"showEditHover": true,
+									"title": "num1"
 								},
 								{
 									"align": "",
@@ -781,19 +831,60 @@
 																				]
 																			}
 																		},
-																		"key": 1957174811341202,
+																		"key": 1957184308654302,
 																		"props": {
 																			"dataField": "name",
 																			"dataFieldType": "xs_string",
-																			"label": "{\"en_US\":\"Name\",\"zh_CN\":\"名称\"}",
-																			"name": "input_1779249828492",
+																			"label": "名称",
+																			"maxlength": 64,
+																			"name": "input_1779258462413",
 																			"readonly": false,
+																			"required": false,
 																			"type": "text"
 																		},
 																		"type": "input"
 																	}
 																],
-																"key": 1957174811341201,
+																"key": 1957184308654301,
+																"on": {},
+																"props": {
+																	"align": "left",
+																	"lg": 8,
+																	"md": 8,
+																	"name": "col_3",
+																	"sm": 24,
+																	"xs": 24
+																},
+																"type": "col"
+															},
+															{
+																"attrs": {},
+																"elements": [
+																	{
+																		"dataBinding": {
+																			"default": {
+																				"model": [
+																					"Detail",
+																					"TestAdmin__num1__CST"
+																				]
+																			}
+																		},
+																		"key": 1957184308654304,
+																		"props": {
+																			"dataField": "TestAdmin__num1__CST",
+																			"dataFieldType": "xs_decimal",
+																			"label": "num1",
+																			"max": 1000000000000000000,
+																			"min": -1000000000000000000,
+																			"name": "inputnumber_1779258462413",
+																			"precision": 2,
+																			"required": false,
+																			"step": 0
+																		},
+																		"type": "inputnumber"
+																	}
+																],
+																"key": 1957184308654303,
 																"on": {},
 																"props": {
 																	"align": "left",
@@ -806,7 +897,7 @@
 																"type": "col"
 															}
 														],
-														"key": 1957174811341200,
+														"key": 1957184308654300,
 														"on": {},
 														"props": {
 															"layout": {
@@ -1137,6 +1228,10 @@
 						{
 							"fieldName": "name",
 							"mappingField": "name"
+						},
+						{
+							"fieldName": "TestAdmin__num1__CST",
+							"mappingField": "TestAdmin__num1__CST"
 						}
 					],
 					"type": "object",
@@ -1147,6 +1242,10 @@
 						{
 							"fieldName": "name",
 							"mappingField": "name"
+						},
+						{
+							"fieldName": "TestAdmin__num1__CST",
+							"mappingField": "TestAdmin__num1__CST"
 						}
 					],
 					"method": "save",
@@ -1160,6 +1259,10 @@
 						{
 							"fieldName": "name",
 							"mappingField": "name"
+						},
+						{
+							"fieldName": "TestAdmin__num1__CST",
+							"mappingField": "TestAdmin__num1__CST"
 						}
 					],
 					"method": "delete",
@@ -1198,7 +1301,7 @@
 				{
 					"_uid": 1,
 					"expand": false,
-					"label": "{\"en_US\":\"Name\",\"zh_CN\":\"名称\"}",
+					"label": "名称",
 					"name": "name",
 					"orign": [
 						{
@@ -1210,6 +1313,22 @@
 					"parentId": "Detail",
 					"rootInstanceId": "Detail",
 					"type": "xs_string"
+				},
+				{
+					"_uid": 2,
+					"expand": false,
+					"label": "num1",
+					"name": "TestAdmin__num1__CST",
+					"orign": [
+						{
+							"mappingField": "TestAdmin__num1__CST",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"parentId": "Detail",
+					"rootInstanceId": "Detail",
+					"type": "xs_decimal"
 				}
 			]
 		},
@@ -1223,6 +1342,10 @@
 						{
 							"fieldName": "name",
 							"mappingField": "name"
+						},
+						{
+							"fieldName": "TestAdmin__num1__CST",
+							"mappingField": "TestAdmin__num1__CST"
 						}
 					],
 					"type": "object",
@@ -1233,6 +1356,10 @@
 						{
 							"fieldName": "name",
 							"mappingField": "name"
+						},
+						{
+							"fieldName": "TestAdmin__num1__CST",
+							"mappingField": "TestAdmin__num1__CST"
 						}
 					],
 					"method": "save",
@@ -1246,6 +1373,10 @@
 						{
 							"fieldName": "name",
 							"mappingField": "name"
+						},
+						{
+							"fieldName": "TestAdmin__num1__CST",
+							"mappingField": "TestAdmin__num1__CST"
 						}
 					],
 					"method": "delete",
@@ -1282,7 +1413,7 @@
 				},
 				{
 					"expand": false,
-					"label": "{\"en_US\":\"Name\",\"zh_CN\":\"名称\"}",
+					"label": "名称",
 					"name": "name",
 					"orign": [
 						{
@@ -1294,6 +1425,21 @@
 					"parentId": "Records",
 					"rootInstanceId": "Records",
 					"type": "xs_string"
+				},
+				{
+					"expand": false,
+					"label": "num1",
+					"name": "TestAdmin__num1__CST",
+					"orign": [
+						{
+							"mappingField": "TestAdmin__num1__CST",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"parentId": "Records",
+					"rootInstanceId": "Records",
+					"type": "xs_decimal"
 				}
 			]
 		},
@@ -1364,7 +1510,7 @@
 				},
 				{
 					"id": "Records_condition_7",
-					"label": "{\"en_US\":\"Name\",\"zh_CN\":\"名称\"}",
+					"label": "名称",
 					"name": "name",
 					"orign": [
 						{
@@ -1377,6 +1523,22 @@
 					"parentId": "queryInfo",
 					"rootInstanceId": "Records_condition",
 					"type": "xs_string"
+				},
+				{
+					"id": "Records_condition_8",
+					"label": "num1",
+					"name": "TestAdmin__num1__CST",
+					"orign": [
+						{
+							"mappingField": "TestAdmin__num1__CST",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"pId": "Records_condition_6",
+					"parentId": "queryInfo",
+					"rootInstanceId": "Records_condition",
+					"type": "xs_decimal"
 				}
 			]
 		},
