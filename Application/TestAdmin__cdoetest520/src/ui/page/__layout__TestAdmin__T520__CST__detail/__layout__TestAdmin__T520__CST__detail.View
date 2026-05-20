@@ -19,11 +19,11 @@
 				}
 			],
 			"belongTo": null,
-			"createdDate": "2026-05-20 06:27:42",
+			"createdDate": "2026-05-20 07:40:00",
 			"custom": true,
 			"fromInstall": null,
-			"id": "003h000001WlvUzXLjMm",
-			"lastModifiedDate": "2026-05-20 06:27:42",
+			"id": "003h000001Wm0fNcxoHo",
+			"lastModifiedDate": "2026-05-20 07:40:00",
 			"name": "button_0_click",
 			"protectMode": 0,
 			"view": "003g000001WllDQs8oyG",
@@ -41,11 +41,11 @@
 				}
 			],
 			"belongTo": null,
-			"createdDate": "2026-05-20 06:27:42",
+			"createdDate": "2026-05-20 07:40:00",
 			"custom": true,
 			"fromInstall": null,
-			"id": "003h000001WlvUzXLjMn",
-			"lastModifiedDate": "2026-05-20 06:27:42",
+			"id": "003h000001Wm0fNcxoHp",
+			"lastModifiedDate": "2026-05-20 07:40:00",
 			"name": "button_1_click",
 			"protectMode": 0,
 			"view": "003g000001WllDQs8oyG",
@@ -57,7 +57,7 @@
 	"fromInstall": null,
 	"id": "003g000001WllDQs8oyG",
 	"label": "TestAdmin__T520__CST Detail",
-	"lastModifiedDate": "2026-05-20 06:27:42",
+	"lastModifiedDate": "2026-05-20 07:40:00",
 	"layer": "null",
 	"libraries": "[]",
 	"logo": null,
@@ -67,7 +67,7 @@
 	"protectMode": 0,
 	"referencePageId": null,
 	"type": "Page",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"viewData": {
 		"dependencies": [
 			{
@@ -123,13 +123,13 @@
 																]
 															}
 														},
-														"key": 1957184307900802,
+														"key": 1957189080965802,
 														"props": {
 															"dataField": "name",
 															"dataFieldType": "xs_string",
 															"label": "名称",
 															"maxlength": 64,
-															"name": "input_1779258461729",
+															"name": "input_1779262800878",
 															"readonly": false,
 															"required": false,
 															"type": "text"
@@ -137,7 +137,7 @@
 														"type": "input"
 													}
 												],
-												"key": 1957184307900801,
+												"key": 1957189080965801,
 												"on": {},
 												"props": {
 													"align": "left",
@@ -161,14 +161,14 @@
 																]
 															}
 														},
-														"key": 1957184307900804,
+														"key": 1957189080965804,
 														"props": {
 															"dataField": "TestAdmin__num1__CST",
 															"dataFieldType": "xs_decimal",
 															"label": "num1",
 															"max": 1000000000000000000,
 															"min": -1000000000000000000,
-															"name": "inputnumber_1779258461729",
+															"name": "inputnumber_1779262800878",
 															"precision": 2,
 															"required": false,
 															"step": 0
@@ -176,7 +176,48 @@
 														"type": "inputnumber"
 													}
 												],
-												"key": 1957184307900803,
+												"key": 1957189080965803,
+												"on": {},
+												"props": {
+													"align": "left",
+													"lg": 8,
+													"md": 8,
+													"name": "col_3",
+													"sm": 24,
+													"xs": 24
+												},
+												"type": "col"
+											},
+											{
+												"attrs": {},
+												"elements": [
+													{
+														"dataBinding": {
+															"default": {
+																"model": [
+																	"form_0",
+																	"TestAdmin__sex__CST"
+																]
+															}
+														},
+														"key": 1957189080965806,
+														"props": {
+															"clearable": true,
+															"dataField": "TestAdmin__sex__CST",
+															"dataFieldType": "xs_string_lookup",
+															"filterable": true,
+															"label": "sex",
+															"multiSelect": false,
+															"name": "select_1779262800878",
+															"picklist": "0004000001WlwQDgOqQa",
+															"picklistName": "TestAdmin__sex520",
+															"required": false,
+															"transfer": true
+														},
+														"type": "select"
+													}
+												],
+												"key": 1957189080965805,
 												"on": {},
 												"props": {
 													"align": "left",
@@ -189,7 +230,7 @@
 												"type": "col"
 											}
 										],
-										"key": 1957184307900800,
+										"key": 1957189080965800,
 										"on": {},
 										"props": {
 											"layout": {
@@ -342,6 +383,10 @@
 						{
 							"fieldName": "TestAdmin__num1__CST",
 							"mappingField": "TestAdmin__num1__CST"
+						},
+						{
+							"fieldName": "TestAdmin__sex__CST",
+							"mappingField": "TestAdmin__sex__CST"
 						}
 					],
 					"type": "object",
@@ -356,6 +401,10 @@
 						{
 							"fieldName": "TestAdmin__num1__CST",
 							"mappingField": "TestAdmin__num1__CST"
+						},
+						{
+							"fieldName": "TestAdmin__sex__CST",
+							"mappingField": "TestAdmin__sex__CST"
 						}
 					],
 					"method": "save",
@@ -373,6 +422,10 @@
 						{
 							"fieldName": "TestAdmin__num1__CST",
 							"mappingField": "TestAdmin__num1__CST"
+						},
+						{
+							"fieldName": "TestAdmin__sex__CST",
+							"mappingField": "TestAdmin__sex__CST"
 						}
 					],
 					"method": "delete",
@@ -439,6 +492,22 @@
 					"parentId": "form_0",
 					"rootInstanceId": "form_0",
 					"type": "xs_decimal"
+				},
+				{
+					"_uid": 3,
+					"expand": false,
+					"label": "sex",
+					"name": "TestAdmin__sex__CST",
+					"orign": [
+						{
+							"mappingField": "TestAdmin__sex__CST",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"parentId": "form_0",
+					"rootInstanceId": "form_0",
+					"type": "xs_string_lookup"
 				}
 			],
 			"mapping": [
