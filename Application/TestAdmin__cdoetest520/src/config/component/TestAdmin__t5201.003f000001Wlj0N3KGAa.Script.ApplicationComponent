@@ -1,0 +1,20 @@
+{
+	"appId": "000f000001WlixyK5Ici",
+	"appId.__objectType": "Application",
+	"appId.name": "TestAdmin__cdoetest520",
+	"belongTo": null,
+	"category": null,
+	"createdDate": "2026-05-20 03:32:52",
+	"custom": true,
+	"fromInstall": null,
+	"id": "003f000001Wlj0N3KGAa",
+	"lastModifiedDate": "2026-05-20 03:32:52",
+	"name": "TestAdmin__t5201",
+	"parent": "003f000000kxaz1iXBOi",
+	"parent.__objectType": "ApplicationComponent",
+	"parent.name": "",
+	"protectMode": 0,
+	"seqNo": null,
+	"type": "Script",
+	"visibility": 0
+}

@@ -1,0 +1,191 @@
+{
+  "siteId" : "924",
+  "revisionId" : "59183",
+  "catalogName" : "TestAdmin__cdoetest520",
+  "originWebsiteId" : "001S000001Wlixu2OksK",
+  "originWebsiteName" : "TestAdmin__cdoetest520_00000000019wH4yd002L",
+  "siteBasePath" : "",
+  "catalogPages" : [ ],
+  "catalogFacets" : {
+    "combinedCustomGlobalResources" : "false",
+    "enablePreviewMode" : "false",
+    "restrictOtherDomainAccess" : "false",
+    "enableSemanticUrl" : "false",
+    "waitForPageDOMReady" : "true",
+    "allowedProtocol" : "both",
+    "combinedCustomResources" : "false",
+    "enableSiteTemplate" : "false",
+    "supportClientInclude" : "false",
+    "body_suffix" : "",
+    "enableRequireJS" : "true",
+    "default_description" : "",
+    "combinedResourceDomain" : "",
+    "default_title" : "",
+    "supportCORSCHTML" : "true",
+    "skipQPInFtlCache" : "false",
+    "body_prefix" : "",
+    "enableDefaultLoading" : "false",
+    "readerType" : "v2",
+    "supportServerPluginAPIInclude" : "false",
+    "supportServerInclude" : "true",
+    "writeCSSToDOM" : "false",
+    "enableStdPageStatic" : "false",
+    "combinedAllJS" : "false",
+    "useRelativeResPath" : "true",
+    "X-FRAME-OPTIONS" : "None",
+    "ab_settings" : "false",
+    "includeHTML5DOCTYPE" : "false",
+    "loadResourcesInStudio" : "true",
+    "combinedStudioResources" : "false",
+    "disableDefaultViewport" : "false",
+    "header_prefix" : "",
+    "delayResourceLoad" : "false",
+    "enableRequireForEventAPI" : "false",
+    "enableSemanticUrlWithHP" : "false",
+    "default_keywords" : "",
+    "header_suffix" : ""
+  },
+  "catalogProperties" : { },
+  "views" : [ {
+    "viewId" : "1",
+    "viewName" : "web",
+    "height" : 1080,
+    "width" : 1920,
+    "footerHeight" : 0,
+    "headerHeight" : 0,
+    "footerVisible" : false,
+    "headerVisible" : false,
+    "weight" : 0,
+    "deviceType" : 3,
+    "columns" : 12,
+    "defaultView" : true,
+    "disabled" : false,
+    "resources" : [ ],
+    "config" : { },
+    "dynamicPages" : [ ],
+    "libraryConfig" : { },
+    "viewCookie" : { }
+  }, {
+    "viewId" : "2",
+    "viewName" : "mobile",
+    "height" : 736,
+    "width" : 414,
+    "footerHeight" : 0,
+    "headerHeight" : 0,
+    "footerVisible" : false,
+    "headerVisible" : false,
+    "weight" : 0,
+    "deviceType" : 1,
+    "columns" : 4,
+    "defaultView" : false,
+    "disabled" : false,
+    "resources" : [ ],
+    "config" : { },
+    "dynamicPages" : [ ],
+    "libraryConfig" : { },
+    "viewCookie" : { }
+  } ],
+  "global" : {
+    "catalogName" : "TestAdmin__cdoetest520",
+    "macros" : [ ],
+    "streamDomains" : {
+      "DEV" : {
+        "domainName" : "${partner_cdn_domain}"
+      },
+      "STG" : {
+        "domainName" : "${partner_cdn_domain}"
+      },
+      "PREPROD" : {
+        "domainName" : "${partner_cdn_domain}"
+      },
+      "PROD" : {
+        "domainName" : "${partner_cdn_domain}"
+      }
+    },
+    "publishProxyDomains" : {
+      "DEV" : {
+        "domainName" : "",
+        "ipAddress" : ""
+      },
+      "STG" : {
+        "domainName" : "",
+        "ipAddress" : ""
+      },
+      "PREPROD" : {
+        "domainName" : "",
+        "ipAddress" : ""
+      },
+      "PROD" : {
+        "domainName" : "",
+        "ipAddress" : ""
+      }
+    },
+    "analyticsProperties" : {
+      "baiduAnalytics" : {
+        "DEV" : {
+          "analyticsId" : ""
+        },
+        "STG" : {
+          "analyticsId" : ""
+        },
+        "PREPROD" : {
+          "analyticsId" : ""
+        },
+        "PROD" : {
+          "analyticsId" : ""
+        }
+      },
+      "googleAnalytics" : {
+        "DEV" : {
+          "analyticsId" : "",
+          "pageTracking" : false,
+          "eventTracking" : false
+        },
+        "STG" : {
+          "analyticsId" : "",
+          "pageTracking" : false,
+          "eventTracking" : false
+        },
+        "PREPROD" : {
+          "analyticsId" : "",
+          "pageTracking" : false,
+          "eventTracking" : false
+        },
+        "PROD" : {
+          "analyticsId" : "",
+          "pageTracking" : false,
+          "eventTracking" : false
+        }
+      }
+    }
+  },
+  "pages" : [ ],
+  "widgetLibrary" : [ ],
+  "commonProperties" : {
+    "pageProperties" : { },
+    "pageFacets" : {
+      "transition" : "",
+      "page_title" : "",
+      "page_keywords" : "",
+      "page_content" : "",
+      "page_description" : "",
+      "cache_control_max_age" : ""
+    },
+    "itemProperties" : { },
+    "itemFacets" : { }
+  },
+  "collections" : [ ],
+  "includes" : [ ],
+  "pluginIncludes" : [ ],
+  "resources" : [ ],
+  "assets" : [ ],
+  "snippets" : [ ],
+  "abTestingDuration" : 0.0,
+  "supportServerInclude" : true,
+  "enableRequireForEventAPI" : false,
+  "visibleLayouts" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 ],
+  "parentViews" : [ ],
+  "parentIncludes" : [ ],
+  "ba" : false,
+  "isDv" : false
+}

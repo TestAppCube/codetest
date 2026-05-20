@@ -1,0 +1,16 @@
+{
+	"belongTo": null,
+	"createdDate": "2026-05-20 03:32:18",
+	"custom": true,
+	"extTenantID": -1,
+	"fromInstall": null,
+	"homePage": null,
+	"id": "001S000001Wlixu2OksK",
+	"lastModifiedDate": "2026-05-20 03:32:18",
+	"name": "TestAdmin__cdoetest520_00000000019wH4yd002L",
+	"pageActions": [],
+	"parentID": null,
+	"protectMode": 0,
+	"siteID": -1,
+	"visibility": 0
+}
