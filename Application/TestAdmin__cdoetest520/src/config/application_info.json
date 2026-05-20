@@ -1,0 +1,22 @@
+{
+	"active": true,
+	"belongTo": null,
+	"category": "",
+	"coreVersion": "25.9.0",
+	"createdDate": "2026-05-20 03:32:19",
+	"custom": true,
+	"defaultTabId.__objectType": "Tab",
+	"defaultTabId.name": "Home",
+	"description": "",
+	"fromInstall": null,
+	"id": "000f000001WlixyK5Ici",
+	"label": "cdoetest520",
+	"logo": "/lowcode/home/img/defaultAppImg.b91fa3b.png",
+	"name": "TestAdmin__cdoetest520",
+	"protectMode": 0,
+	"publishVersion": "0.0.1",
+	"theme": null,
+	"type": "Custom Application",
+	"type.name": "Custom Application",
+	"visibility": 0
+}

@@ -1,0 +1,1394 @@
+{
+	"active": false,
+	"application": "000f000001WlixyK5Ici",
+	"application.__objectType": "Application",
+	"application.name": "TestAdmin__cdoetest520",
+	"belongTo": "000f000001WlixyK5Ici",
+	"belongTo.__objectType": "Application",
+	"belongTo.name": "TestAdmin__cdoetest520",
+	"createdDate": "2026-05-20 06:29:06",
+	"custom": true,
+	"customStyle": "/* Recommended builtin styles, generally there is no need to be modified */\nhtml, body {\n    height: 100%;\n}\n\n.xview-designer-page {\n    overflow: auto;\n}\n\n@media (min-width: 992px) {\n    .ivu-row .ivu-col:first-child {\n        padding-left: 0;\n    }\n\n    .ivu-row .ivu-col:last-child {\n        padding-right: 0;\n    }\n}\n\n.ivu-form-item {\n    padding: 0;\n}\n\n.xview-container\u003e.ivu-input-wrapper {\n    margin-top: 10px;\n    margin-bottom: 10px;\n}\n\n.ivu-btn-large {\n    padding: 9px 30px !important;\n}\n\n.ivu-row\u003e.ivu-col\u003e.ivu-btn-large {\n    margin-top: 10px;\n}\n\n.ivu-form\u003e.ivu-row\u003e.ivu-col\u003e.ivu-btn-large {\n    margin-top: 30px;\n}\n/* --------------------------------------------------------------------- */",
+	"description": null,
+	"events": [
+		{
+			"action": [
+				{
+					"__handlerName": "formSaveHandler",
+					"__nodeName": "提交表单",
+					"key": "17792585929602",
+					"options": [
+						{
+							"id": "1779258560307000",
+							"name": "form_0"
+						}
+					],
+					"type": "$form.save"
+				}
+			],
+			"belongTo": null,
+			"createdDate": "2026-05-20 06:32:11",
+			"custom": true,
+			"fromInstall": null,
+			"id": "003h000001Wlvoug0Fo8",
+			"lastModifiedDate": "2026-05-20 06:32:11",
+			"name": "butto_click_1779258551851007",
+			"protectMode": 0,
+			"view": "003g000001WlvbEZhBSq",
+			"view.__objectType": "View",
+			"view.name": "TestAdmin__T520from",
+			"visibility": 0
+		},
+		{
+			"action": [
+				{
+					"__handlerName": "formResetHandler",
+					"__nodeName": "重置表单",
+					"key": "17792585929611",
+					"options": [
+						{
+							"id": "1779258560307000",
+							"name": "form_0"
+						}
+					],
+					"type": "$form.reset"
+				}
+			],
+			"belongTo": null,
+			"createdDate": "2026-05-20 06:32:11",
+			"custom": true,
+			"fromInstall": null,
+			"id": "003h000001Wlvoug0Fo9",
+			"lastModifiedDate": "2026-05-20 06:32:11",
+			"name": "butto_click_1779258551851008",
+			"protectMode": 0,
+			"view": "003g000001WlvbEZhBSq",
+			"view.__objectType": "View",
+			"view.name": "TestAdmin__T520from",
+			"visibility": 0
+		}
+	],
+	"fromInstall": null,
+	"id": "003g000001WlvbEZhBSq",
+	"label": "T520from",
+	"lastModifiedDate": "2026-05-20 06:32:11",
+	"layer": "{}",
+	"libraries": "[]",
+	"logo": null,
+	"name": "TestAdmin__T520from",
+	"overridable": true,
+	"pageType": null,
+	"protectMode": 0,
+	"referencePageId": null,
+	"type": "Page",
+	"version": "1.0.3",
+	"viewData": {
+		"dependencies": [
+			{
+				"names": {
+					"cardNames": [],
+					"extendNames": [],
+					"pageMasterNames": [],
+					"widget2Ids": []
+				}
+			}
+		],
+		"elements": [
+			{
+				"attrs": {},
+				"dataBinding": {
+					"default": {
+						"model": [
+							"form_0"
+						]
+					}
+				},
+				"elements": [
+					{
+						"attrs": {},
+						"elements": [
+							{
+								"attrs": {},
+								"elements": [
+									{
+										"attrs": {},
+										"dataBinding": {
+											"default": {
+												"model": [
+													"form_0",
+													"name"
+												]
+											}
+										},
+										"elements": [],
+										"hasCustomPanel": null,
+										"key": 1779258551851002,
+										"on": {},
+										"props": {
+											"customValidateContent": "// return false;\n// return {result:false, message:''};",
+											"dataField": "name",
+											"dataFieldType": "xs_string",
+											"label": "名称",
+											"maxWidth": "100%",
+											"maxlength": 255,
+											"name": "input_0",
+											"transmitStyle": true,
+											"type": "text"
+										},
+										"type": "input",
+										"widget2": false
+									}
+								],
+								"hasCustomPanel": null,
+								"key": 1779258551851003,
+								"on": {},
+								"props": {
+									"align": "left",
+									"bottomBorder": true,
+									"justify": "",
+									"lg": 8,
+									"md": 8,
+									"name": "col_0",
+									"sm": 24,
+									"type": "",
+									"verticalAlign": "",
+									"xs": 24
+								},
+								"type": "col",
+								"widget2": false
+							},
+							{
+								"attrs": {},
+								"elements": [
+									{
+										"attrs": {},
+										"dataBinding": {
+											"default": {
+												"model": [
+													"form_0",
+													"TestAdmin__num1__CST"
+												]
+											}
+										},
+										"elements": [],
+										"hasCustomPanel": null,
+										"key": 1779258551851004,
+										"on": {},
+										"props": {
+											"customValidateContent": "// return false;\n// return {result:false, message:''};",
+											"dataField": "TestAdmin__num1__CST",
+											"dataFieldType": "xs_decimal",
+											"label": "num1",
+											"maxWidth": "100%",
+											"maxlength": null,
+											"name": "inputnumber_0",
+											"precision": 0
+										},
+										"type": "inputnumber",
+										"widget2": false
+									}
+								],
+								"hasCustomPanel": null,
+								"key": 1779258551851005,
+								"on": {},
+								"props": {
+									"align": "left",
+									"bottomBorder": true,
+									"justify": "",
+									"lg": 8,
+									"md": 8,
+									"name": "col_1",
+									"sm": 24,
+									"type": "",
+									"verticalAlign": "",
+									"xs": 24
+								},
+								"type": "col",
+								"widget2": false
+							}
+						],
+						"hasCustomPanel": null,
+						"key": 1779258551851006,
+						"on": {},
+						"props": {
+							"justify": "",
+							"layout": {
+								"pad": {
+									"key": "pad1",
+									"value": [
+										24
+									]
+								},
+								"pc": {
+									"key": "one_one_one",
+									"value": [
+										8,
+										8,
+										8
+									]
+								},
+								"phone": {
+									"key": "phone1",
+									"value": [
+										24
+									]
+								}
+							},
+							"name": "row_0",
+							"type": ""
+						},
+						"type": "row",
+						"widget2": false
+					},
+					{
+						"attrs": {},
+						"elements": [
+							{
+								"attrs": {},
+								"elements": [],
+								"hasCustomPanel": null,
+								"key": 1779258551851007,
+								"on": {
+									"click": "butto_click_1779258551851007"
+								},
+								"props": {
+									"class": "ivu-btn-auto-margin",
+									"iconAlign": "left",
+									"name": "button_0",
+									"shape": "square",
+									"size": "large",
+									"style": "margin-right:24px;",
+									"text": "保存",
+									"type": "primary"
+								},
+								"type": "button",
+								"widget2": false
+							},
+							{
+								"attrs": {},
+								"elements": [],
+								"hasCustomPanel": null,
+								"key": 1779258551851008,
+								"on": {
+									"click": "butto_click_1779258551851008"
+								},
+								"props": {
+									"class": "ivu-btn-auto-margin",
+									"iconAlign": "left",
+									"name": "button_1",
+									"shape": "square",
+									"size": "large",
+									"style": "margin-right:24px;margin-left:0px",
+									"text": "重置",
+									"type": "ghost"
+								},
+								"type": "button",
+								"widget2": false
+							}
+						],
+						"hasCustomPanel": null,
+						"key": 1779258551851009,
+						"labelColSpan": 8,
+						"labelWidth": "calc(100% / 24 * 8)",
+						"on": {},
+						"props": {
+							"align": "center",
+							"alignItems": "flex-start",
+							"bottom": false,
+							"direction": "row",
+							"flex": false,
+							"hidden": false,
+							"isFixedTop": false,
+							"justify": "flex-start",
+							"name": "container_0",
+							"noSpacingButtons": false,
+							"singleline": true
+						},
+						"type": "container",
+						"widget2": false
+					}
+				],
+				"hasCustomPanel": null,
+				"key": 1779258560307000,
+				"labelColSpan": 8,
+				"labelWidth": "calc(100% / 24 * 8)",
+				"on": {},
+				"props": {
+					"col": 1,
+					"dataSource": "TestAdmin__T520__CST",
+					"dataSourceId": "cust000001WllDMfqeh6",
+					"dataSourceType": "Entity",
+					"disabled": false,
+					"flex": false,
+					"hidden": false,
+					"labelPosition": "top",
+					"labelWidth": 120,
+					"layout": {
+						"key": "one_one_one",
+						"value": [
+							8,
+							8,
+							8
+						]
+					},
+					"name": "form_0",
+					"readonly": false
+				},
+				"type": "form",
+				"widget2": false
+			},
+			{
+				"attrs": {},
+				"dataBinding": {
+					"default": {
+						"model": [
+							"ts5201"
+						]
+					}
+				},
+				"elements": [
+					{
+						"attrs": {},
+						"dataBinding": {
+							"default": {
+								"model": [
+									"table_0_condition",
+									"queryInfo"
+								]
+							}
+						},
+						"elements": [
+							{
+								"attrs": {},
+								"elements": [
+									{
+										"attrs": {},
+										"elements": [
+											{
+												"attrs": {},
+												"dataBinding": {
+													"default": {
+														"model": [
+															"table_0_condition",
+															"queryInfo",
+															"name"
+														]
+													}
+												},
+												"elements": [],
+												"hasCustomPanel": null,
+												"key": 1779258551851013,
+												"on": {},
+												"props": {
+													"customValidateContent": "// return false;\n// return {result:false, message:''};",
+													"dataField": "name",
+													"dataFieldType": "xs_string",
+													"label": "名称",
+													"maxWidth": "100%",
+													"maxlength": 255,
+													"name": "input_1",
+													"transmitStyle": true,
+													"type": "text"
+												},
+												"type": "input",
+												"widget2": false
+											}
+										],
+										"hasCustomPanel": null,
+										"key": 1779258551851014,
+										"on": {},
+										"props": {
+											"align": "left",
+											"bottomBorder": true,
+											"justify": "",
+											"lg": 8,
+											"md": 8,
+											"name": "col_2",
+											"sm": 24,
+											"type": "",
+											"verticalAlign": "",
+											"xs": 24
+										},
+										"type": "col",
+										"widget2": false
+									},
+									{
+										"attrs": {},
+										"elements": [
+											{
+												"attrs": {},
+												"dataBinding": {
+													"default": {
+														"model": [
+															"table_0_condition",
+															"queryInfo",
+															"TestAdmin__num1__CST"
+														]
+													}
+												},
+												"elements": [],
+												"hasCustomPanel": null,
+												"key": 1779258551851015,
+												"on": {},
+												"props": {
+													"customValidateContent": "// return false;\n// return {result:false, message:''};",
+													"dataField": "TestAdmin__num1__CST",
+													"dataFieldType": "xs_decimal",
+													"label": "num1",
+													"maxWidth": "100%",
+													"maxlength": null,
+													"name": "inputnumber_1",
+													"precision": 0
+												},
+												"type": "inputnumber",
+												"widget2": false
+											}
+										],
+										"hasCustomPanel": null,
+										"key": 1779258551851016,
+										"on": {},
+										"props": {
+											"align": "left",
+											"bottomBorder": true,
+											"justify": "",
+											"lg": 8,
+											"md": 8,
+											"name": "col_3",
+											"sm": 24,
+											"style": "box-shadow: none;",
+											"type": "",
+											"verticalAlign": "",
+											"xs": 24
+										},
+										"type": "col",
+										"widget2": false
+									}
+								],
+								"hasCustomPanel": null,
+								"key": 1779258551851017,
+								"on": {},
+								"props": {
+									"justify": "",
+									"layout": {
+										"pad": {
+											"key": "pad1",
+											"value": [
+												24
+											]
+										},
+										"pc": {
+											"key": "one_one_one",
+											"value": [
+												8,
+												8,
+												8
+											]
+										},
+										"phone": {
+											"key": "phone1",
+											"value": [
+												24
+											]
+										}
+									},
+									"name": "row_1",
+									"type": ""
+								},
+								"type": "row",
+								"widget2": false
+							},
+							{
+								"attrs": {},
+								"elements": [
+									{
+										"attrs": {},
+										"elements": [],
+										"hasCustomPanel": null,
+										"key": 1779258551851000,
+										"on": {
+											"click": {
+												"actions": [
+													{
+														"__nodeDesc": "",
+														"__nodeName": "搜索",
+														"key": "1779258553316",
+														"options": {
+															"content": "// 当前表格\r\nvar _table = context.$component.table;\r\n\r\n// 获取查询条件\r\nvar condition = _table.getCondition();\r\n\r\n// 设置查询条件\r\nif(condition) {\r\n  _table.setCondition(condition);\r\n}\r\n\r\n// 执行查询\r\n_table.doQuery();"
+														},
+														"type": "javaScriptCode"
+													}
+												]
+											}
+										},
+										"props": {
+											"class": "ivu-btn-auto-margin",
+											"iconAlign": "left",
+											"name": "button_2",
+											"shape": "square",
+											"size": "default",
+											"style": "margin-right: 20px;",
+											"text": "搜索",
+											"type": "primary"
+										},
+										"type": "button",
+										"widget2": false
+									},
+									{
+										"attrs": {},
+										"elements": [],
+										"hasCustomPanel": null,
+										"key": 1779258551851001,
+										"on": {
+											"click": {
+												"actions": [
+													{
+														"__nodeDesc": "",
+														"__nodeName": "重置",
+														"key": "1779258553317",
+														"options": {
+															"content": "// 当前表格\r\nvar _table = context.$component.table;\r\n\r\n// 重置查询条件\r\n_table.resetCondition();\r\n\r\n// 刷新表格\r\n_table.doQuery();"
+														},
+														"type": "javaScriptCode"
+													}
+												]
+											}
+										},
+										"props": {
+											"class": "ivu-btn-auto-margin",
+											"iconAlign": "left",
+											"name": "button_3",
+											"shape": "square",
+											"size": "default",
+											"style": "margin-right: 20px;",
+											"text": "重置",
+											"type": "primary"
+										},
+										"type": "button",
+										"widget2": false
+									}
+								],
+								"hasCustomPanel": null,
+								"key": 1779258551851018,
+								"on": {},
+								"props": {
+									"align": "center",
+									"alignItems": "flex-start",
+									"class": "form-buttons-container",
+									"direction": "row",
+									"justify": "flex-start",
+									"name": "container_1",
+									"singleline": true,
+									"style": "padding: 10px 0 30px 0;"
+								},
+								"type": "container",
+								"widget2": false
+							}
+						],
+						"hasCustomPanel": null,
+						"key": 1779258551851012,
+						"labelColSpan": 8,
+						"labelWidth": "calc(100% / 24 * 8)",
+						"on": {},
+						"props": {
+							"dataSource": "TestAdmin__T520__CST",
+							"dataSourceId": "cust000001WllDMfqeh6",
+							"dataSourceType": "Entity",
+							"labelPosition": "top",
+							"labelWidth": 120,
+							"layout": {
+								"key": "one_one_one",
+								"value": [
+									8,
+									8,
+									8
+								]
+							},
+							"name": "condition_0"
+						},
+						"type": "condition",
+						"widget2": false
+					},
+					{
+						"attrs": {},
+						"dataBinding": {
+							"default": {
+								"model": [
+									"ts5201"
+								]
+							}
+						},
+						"elements": [],
+						"hasCustomPanel": null,
+						"key": 1779258598870000,
+						"labelColSpan": 8,
+						"labelWidth": "calc(100% / 24 * 8)",
+						"on": {},
+						"props": {
+							"addRowIndex": false,
+							"autoLoadData": true,
+							"border": false,
+							"class": "",
+							"columns": [
+								{
+									"category": 3,
+									"editable": false,
+									"ellipsis": true,
+									"fieldId": "stup0000000000000000",
+									"fieldType": "xs_string_pk",
+									"key": "id",
+									"showEditHover": false,
+									"title": "记录 ID"
+								},
+								{
+									"category": 3,
+									"editable": false,
+									"ellipsis": true,
+									"fieldId": "cust000001WllDMfqeh7",
+									"fieldType": "xs_string",
+									"key": "name",
+									"showEditHover": false,
+									"title": "名称"
+								},
+								{
+									"category": 4,
+									"editable": false,
+									"ellipsis": true,
+									"fieldId": "cust000001WlvUvcN61Y",
+									"fieldType": "xs_decimal",
+									"key": "TestAdmin__num1__CST",
+									"showEditHover": false,
+									"title": "num1"
+								},
+								{
+									"category": 3,
+									"editable": false,
+									"editorOpt": {
+										"attrs": {},
+										"elements": [],
+										"hasCustomPanel": null,
+										"key": 1779258551851010,
+										"on": {},
+										"props": {
+											"customValidateContent": "// return false;\n// return {result:false, message:''};",
+											"dataField": "createdBy",
+											"dataFieldType": "obj_reference",
+											"disabled": false,
+											"displayField": "name",
+											"label": "创建人",
+											"name": "referenceselector_0",
+											"readonly": false,
+											"referenceObjId": "stad00000000000000GG",
+											"referenceObjName": "PortalUser",
+											"required": true,
+											"selectType": "dropdown",
+											"valueField": "id"
+										},
+										"type": "referenceselector",
+										"widget2": false
+									},
+									"ellipsis": true,
+									"fieldId": "stup00000000000002bJ",
+									"fieldType": "obj_reference",
+									"key": "createdBy",
+									"referenceFieldList": [
+										{
+											"referenceObjectID": "stad00000000000000GD",
+											"referenceObjectName": "User",
+											"relationshipLabel": "user",
+											"relationshipName": "user"
+										},
+										{
+											"referenceObjectID": "stad00000000000000GG",
+											"referenceObjectName": "PortalUser",
+											"relationshipLabel": "portal user",
+											"relationshipName": "portal user"
+										}
+									],
+									"showEditHover": false,
+									"title": "创建人"
+								},
+								{
+									"category": 3,
+									"editable": false,
+									"ellipsis": true,
+									"fieldId": "stup00000000000002bK",
+									"fieldType": "xs_dateTime",
+									"key": "createdDate",
+									"showEditHover": false,
+									"title": "创建时间"
+								},
+								{
+									"category": 3,
+									"editable": false,
+									"editorOpt": {
+										"attrs": {},
+										"elements": [],
+										"hasCustomPanel": null,
+										"key": 1779258551851011,
+										"on": {},
+										"props": {
+											"customValidateContent": "// return false;\n// return {result:false, message:''};",
+											"dataField": "lastModifiedBy",
+											"dataFieldType": "obj_reference",
+											"disabled": false,
+											"displayField": "name",
+											"label": "最后修改人",
+											"name": "referenceselector_0",
+											"readonly": false,
+											"referenceObjId": "stad00000000000000GG",
+											"referenceObjName": "PortalUser",
+											"required": false,
+											"selectType": "dropdown",
+											"valueField": "id"
+										},
+										"type": "referenceselector",
+										"widget2": false
+									},
+									"ellipsis": true,
+									"fieldId": "stup00000000000002bL",
+									"fieldType": "obj_reference",
+									"key": "lastModifiedBy",
+									"referenceFieldList": [
+										{
+											"referenceObjectID": "stad00000000000000GD",
+											"referenceObjectName": "User",
+											"relationshipLabel": "user",
+											"relationshipName": "user"
+										},
+										{
+											"referenceObjectID": "stad00000000000000GG",
+											"referenceObjectName": "PortalUser",
+											"relationshipLabel": "portal user",
+											"relationshipName": "portal user"
+										}
+									],
+									"showEditHover": false,
+									"title": "最后修改人"
+								},
+								{
+									"category": 3,
+									"editable": false,
+									"ellipsis": true,
+									"fieldId": "stup00000000000002bM",
+									"fieldType": "xs_dateTime",
+									"key": "lastModifiedDate",
+									"showEditHover": false,
+									"title": "最后修改时间"
+								}
+							],
+							"customClassName": "",
+							"customStyle": "",
+							"data": [],
+							"dataSource": "TestAdmin__T520__CST",
+							"dataSourceId": "TestAdmin__T520__CST",
+							"editable": false,
+							"height": 600,
+							"highlightRow": false,
+							"multiSelect": true,
+							"name": "table_0",
+							"omitColumnOverflow": true,
+							"rowClassName": "//if (index === 1) {\n                    // return 'demo-table-info-row';",
+							"rowIndex": false,
+							"rowIndexContent": "#",
+							"showHeader": true,
+							"stripe": true,
+							"style": "",
+							"transmitStyle": true,
+							"visibleRender": false,
+							"withContent": true
+						},
+						"savedVariable": {},
+						"type": "table",
+						"widget2": false
+					},
+					{
+						"attrs": {},
+						"dataBinding": {
+							"default": {
+								"model": [
+									"table_0_condition",
+									"pageInfo"
+								]
+							}
+						},
+						"elements": [],
+						"hasCustomPanel": null,
+						"key": 1779258598870001,
+						"on": {},
+						"props": {
+							"blurElevator": true,
+							"name": "pager_0",
+							"pageSize": 10,
+							"pageSizeOpts": [
+								10,
+								20,
+								40,
+								100
+							],
+							"showElevator": true,
+							"showSizer": true,
+							"size": "default",
+							"sizerTransfer": true
+						},
+						"type": "pager",
+						"widget2": false
+					}
+				],
+				"hasCustomPanel": null,
+				"key": 1779258598870002,
+				"labelColSpan": 8,
+				"labelWidth": "calc(100% / 24 * 8)",
+				"on": {},
+				"props": {
+					"class": "",
+					"customValidateContent": "// return false;\n// return {result:false, message:''};",
+					"name": "datagrid_0",
+					"style": ""
+				},
+				"type": "datagrid",
+				"widget2": false
+			}
+		],
+		"key": 1,
+		"labelColSpan": 8,
+		"labelWidth": "calc(100% / 24 * 8)",
+		"on": {},
+		"props": {
+			"elementStyle": false,
+			"isPullRefresh": false,
+			"name": "DesignerPage_1",
+			"requireAuth": false
+		},
+		"type": "DesignerPage",
+		"version": "1.0.2"
+	},
+	"viewModel": {
+		"form_0": {
+			"actions": [
+				{
+					"input": [],
+					"method": "query",
+					"name": "query",
+					"output": [
+						{
+							"fieldName": "name",
+							"mappingField": "name"
+						},
+						{
+							"fieldName": "TestAdmin__num1__CST",
+							"mappingField": "TestAdmin__num1__CST"
+						}
+					],
+					"type": "object",
+					"uri": "TestAdmin__T520__CST"
+				},
+				{
+					"input": [
+						{
+							"fieldName": "name",
+							"mappingField": "name"
+						},
+						{
+							"fieldName": "TestAdmin__num1__CST",
+							"mappingField": "TestAdmin__num1__CST"
+						}
+					],
+					"method": "save",
+					"name": "save",
+					"output": [],
+					"type": "object",
+					"uri": "TestAdmin__T520__CST"
+				},
+				{
+					"input": [
+						{
+							"fieldName": "name",
+							"mappingField": "name"
+						},
+						{
+							"fieldName": "TestAdmin__num1__CST",
+							"mappingField": "TestAdmin__num1__CST"
+						}
+					],
+					"method": "delete",
+					"name": "delete",
+					"output": [],
+					"type": "object",
+					"uri": "TestAdmin__T520__CST"
+				},
+				{
+					"input": [],
+					"method": "count",
+					"name": "count",
+					"output": [],
+					"type": "object",
+					"uri": "TestAdmin__T520__CST"
+				}
+			],
+			"fields": [
+				{
+					"defaultValue": "{}",
+					"defaultValueType": "system",
+					"expand": false,
+					"highlightRow": false,
+					"id": "form_0_0",
+					"isRequired": false,
+					"label": "form_0",
+					"name": "form_0",
+					"orign": [
+						{
+							"mappingField": "TestAdmin__T520__CST",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"rootInstanceId": "form_0",
+					"type": "object"
+				},
+				{
+					"defaultValue": null,
+					"expand": false,
+					"highlightRow": false,
+					"id": "form_0_1",
+					"isRequired": false,
+					"label": "名称",
+					"name": "name",
+					"orign": [
+						{
+							"mappingField": "name",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"pId": "form_0_0",
+					"parentId": "form_0",
+					"rootInstanceId": "form_0",
+					"type": "xs_string"
+				},
+				{
+					"defaultValue": null,
+					"expand": false,
+					"highlightRow": false,
+					"id": "form_0_2",
+					"isRequired": false,
+					"label": "num1",
+					"name": "TestAdmin__num1__CST",
+					"orign": [
+						{
+							"mappingField": "TestAdmin__num1__CST",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"pId": "form_0_0",
+					"parentId": "form_0",
+					"rootInstanceId": "form_0",
+					"type": "xs_decimal"
+				}
+			],
+			"mapping": [
+				{
+					"bindName": "TestAdmin__T520__CST",
+					"bindType": "object",
+					"exclude": "",
+					"include": "ALL"
+				}
+			]
+		},
+		"table_0_condition": {
+			"action": [],
+			"fields": [
+				{
+					"highlightRow": false,
+					"id": "table_0_condition_0",
+					"label": "table_0_condition",
+					"name": "table_0_condition",
+					"rootInstanceId": "table_0_condition",
+					"type": "static"
+				},
+				{
+					"highlightRow": false,
+					"id": "table_0_condition_1",
+					"label": "pageInfo",
+					"name": "pageInfo",
+					"pId": "table_0_condition_0",
+					"parentId": "table_0_condition",
+					"rootInstanceId": "table_0_condition",
+					"type": "static"
+				},
+				{
+					"expand": false,
+					"highlightRow": false,
+					"id": "table_0_condition_2",
+					"label": "curPage",
+					"name": "curPage",
+					"pId": "table_0_condition_1",
+					"parentId": "pageInfo",
+					"rootInstanceId": "table_0_condition",
+					"type": "static"
+				},
+				{
+					"expand": false,
+					"highlightRow": false,
+					"id": "table_0_condition_3",
+					"label": "pageSize",
+					"name": "pageSize",
+					"pId": "table_0_condition_1",
+					"parentId": "pageInfo",
+					"rootInstanceId": "table_0_condition",
+					"type": "static"
+				},
+				{
+					"expand": false,
+					"highlightRow": false,
+					"id": "table_0_condition_4",
+					"label": "total",
+					"name": "total",
+					"pId": "table_0_condition_1",
+					"parentId": "pageInfo",
+					"rootInstanceId": "table_0_condition",
+					"type": "static"
+				},
+				{
+					"expand": false,
+					"highlightRow": false,
+					"id": "table_0_condition_5",
+					"label": "pageSizeOpts",
+					"name": "pageSizeOpts",
+					"pId": "table_0_condition_1",
+					"parentId": "pageInfo",
+					"rootInstanceId": "table_0_condition",
+					"type": "static"
+				},
+				{
+					"label": "queryInfo",
+					"name": "queryInfo",
+					"orign": [
+						{
+							"mappingField": "TestAdmin__T520__CST",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"parentId": "table_0_condition",
+					"type": "object"
+				},
+				{
+					"defaultValue": null,
+					"expand": false,
+					"label": "名称",
+					"name": "name",
+					"orign": [
+						{
+							"mappingField": "name",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"parentId": "queryInfo",
+					"type": "xs_string"
+				},
+				{
+					"defaultValue": null,
+					"expand": false,
+					"label": "num1",
+					"name": "TestAdmin__num1__CST",
+					"orign": [
+						{
+							"mappingField": "TestAdmin__num1__CST",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"parentId": "queryInfo",
+					"type": "xs_decimal"
+				}
+			]
+		},
+		"ts5201": {
+			"actions": [
+				{
+					"_uid": 0,
+					"input": [],
+					"method": "query",
+					"name": "query",
+					"output": [
+						{
+							"fieldName": "id",
+							"mappingField": "id"
+						},
+						{
+							"fieldName": "name",
+							"mappingField": "name"
+						},
+						{
+							"fieldName": "TestAdmin__num1__CST",
+							"mappingField": "TestAdmin__num1__CST"
+						},
+						{
+							"fieldName": "createdBy",
+							"mappingField": "createdBy"
+						},
+						{
+							"fieldName": "createdDate",
+							"mappingField": "createdDate"
+						},
+						{
+							"fieldName": "lastModifiedBy",
+							"mappingField": "lastModifiedBy"
+						},
+						{
+							"fieldName": "lastModifiedDate",
+							"mappingField": "lastModifiedDate"
+						}
+					],
+					"type": "object",
+					"uri": "TestAdmin__T520__CST"
+				},
+				{
+					"_uid": 1,
+					"input": [
+						{
+							"fieldName": "id",
+							"mappingField": "id"
+						},
+						{
+							"fieldName": "name",
+							"mappingField": "name"
+						},
+						{
+							"fieldName": "TestAdmin__num1__CST",
+							"mappingField": "TestAdmin__num1__CST"
+						},
+						{
+							"fieldName": "createdBy",
+							"mappingField": "createdBy"
+						},
+						{
+							"fieldName": "createdDate",
+							"mappingField": "createdDate"
+						},
+						{
+							"fieldName": "lastModifiedBy",
+							"mappingField": "lastModifiedBy"
+						},
+						{
+							"fieldName": "lastModifiedDate",
+							"mappingField": "lastModifiedDate"
+						}
+					],
+					"method": "save",
+					"name": "save",
+					"output": [],
+					"type": "object",
+					"uri": "TestAdmin__T520__CST"
+				},
+				{
+					"_uid": 2,
+					"input": [
+						{
+							"fieldName": "id",
+							"mappingField": "id"
+						},
+						{
+							"fieldName": "name",
+							"mappingField": "name"
+						},
+						{
+							"fieldName": "TestAdmin__num1__CST",
+							"mappingField": "TestAdmin__num1__CST"
+						},
+						{
+							"fieldName": "createdBy",
+							"mappingField": "createdBy"
+						},
+						{
+							"fieldName": "createdDate",
+							"mappingField": "createdDate"
+						},
+						{
+							"fieldName": "lastModifiedBy",
+							"mappingField": "lastModifiedBy"
+						},
+						{
+							"fieldName": "lastModifiedDate",
+							"mappingField": "lastModifiedDate"
+						}
+					],
+					"method": "delete",
+					"name": "delete",
+					"output": [],
+					"type": "object",
+					"uri": "TestAdmin__T520__CST"
+				},
+				{
+					"_uid": 3,
+					"input": [],
+					"method": "count",
+					"name": "count",
+					"output": [],
+					"type": "object",
+					"uri": "TestAdmin__T520__CST"
+				}
+			],
+			"fields": [
+				{
+					"highlightRow": false,
+					"id": "ts5201_0",
+					"label": "T520",
+					"name": "ts5201",
+					"orign": [
+						{
+							"mappingField": "TestAdmin__T520__CST",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"rootInstanceId": "ts5201",
+					"type": "object"
+				},
+				{
+					"defaultValue": null,
+					"expand": false,
+					"highlightRow": false,
+					"id": "ts5201_1",
+					"isRequired": true,
+					"label": "记录 ID",
+					"name": "id",
+					"orign": [
+						{
+							"mappingField": "id",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"pId": "ts5201_0",
+					"parentId": "ts5201",
+					"rootInstanceId": "ts5201",
+					"type": "xs_string_pk"
+				},
+				{
+					"defaultValue": null,
+					"expand": false,
+					"highlightRow": false,
+					"id": "ts5201_2",
+					"isRequired": false,
+					"label": "名称",
+					"name": "name",
+					"orign": [
+						{
+							"mappingField": "name",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"pId": "ts5201_0",
+					"parentId": "ts5201",
+					"rootInstanceId": "ts5201",
+					"type": "xs_string"
+				},
+				{
+					"defaultValue": null,
+					"expand": false,
+					"highlightRow": false,
+					"id": "ts5201_3",
+					"isRequired": false,
+					"label": "num1",
+					"name": "TestAdmin__num1__CST",
+					"orign": [
+						{
+							"mappingField": "TestAdmin__num1__CST",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"pId": "ts5201_0",
+					"parentId": "ts5201",
+					"rootInstanceId": "ts5201",
+					"type": "xs_decimal"
+				},
+				{
+					"defaultValue": null,
+					"expand": false,
+					"highlightRow": false,
+					"id": "ts5201_4",
+					"isRequired": true,
+					"label": "创建人",
+					"name": "createdBy",
+					"orign": [
+						{
+							"mappingField": "createdBy",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"pId": "ts5201_0",
+					"parentId": "ts5201",
+					"rootInstanceId": "ts5201",
+					"type": "obj_reference"
+				},
+				{
+					"defaultValue": null,
+					"expand": false,
+					"highlightRow": false,
+					"id": "ts5201_5",
+					"isRequired": true,
+					"label": "创建时间",
+					"name": "createdDate",
+					"orign": [
+						{
+							"mappingField": "createdDate",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"pId": "ts5201_0",
+					"parentId": "ts5201",
+					"rootInstanceId": "ts5201",
+					"type": "xs_dateTime"
+				},
+				{
+					"defaultValue": null,
+					"expand": false,
+					"highlightRow": false,
+					"id": "ts5201_6",
+					"isRequired": false,
+					"label": "最后修改人",
+					"name": "lastModifiedBy",
+					"orign": [
+						{
+							"mappingField": "lastModifiedBy",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"pId": "ts5201_0",
+					"parentId": "ts5201",
+					"rootInstanceId": "ts5201",
+					"type": "obj_reference"
+				},
+				{
+					"defaultValue": null,
+					"expand": false,
+					"highlightRow": false,
+					"id": "ts5201_7",
+					"isRequired": false,
+					"label": "最后修改时间",
+					"name": "lastModifiedDate",
+					"orign": [
+						{
+							"mappingField": "lastModifiedDate",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"pId": "ts5201_0",
+					"parentId": "ts5201",
+					"rootInstanceId": "ts5201",
+					"type": "xs_dateTime"
+				}
+			]
+		}
+	},
+	"visibility": 0
+}

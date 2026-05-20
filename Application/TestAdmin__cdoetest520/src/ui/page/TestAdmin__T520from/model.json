@@ -1,0 +1,421 @@
+{
+  "form_0" : {
+    "mapping" : [ {
+      "bindType" : "object",
+      "bindName" : "TestAdmin__T520__CST",
+      "include" : "ALL",
+      "exclude" : ""
+    } ],
+    "fields" : [ {
+      "name" : "form_0",
+      "label" : "form_0",
+      "type" : "object",
+      "isRequired" : false,
+      "expand" : false,
+      "orign" : [ {
+        "type" : "object",
+        "name" : "TestAdmin__T520__CST",
+        "mappingField" : "TestAdmin__T520__CST"
+      } ],
+      "defaultValue" : "{}",
+      "defaultValueType" : "system",
+      "highlightRow" : false,
+      "rootInstanceId" : "form_0",
+      "id" : "form_0_0"
+    }, {
+      "name" : "name",
+      "label" : "名称",
+      "type" : "xs_string",
+      "isRequired" : false,
+      "orign" : [ {
+        "type" : "object",
+        "name" : "TestAdmin__T520__CST",
+        "mappingField" : "name"
+      } ],
+      "parentId" : "form_0",
+      "expand" : false,
+      "highlightRow" : false,
+      "rootInstanceId" : "form_0",
+      "id" : "form_0_1",
+      "pId" : "form_0_0"
+    }, {
+      "name" : "TestAdmin__num1__CST",
+      "label" : "num1",
+      "type" : "xs_decimal",
+      "isRequired" : false,
+      "orign" : [ {
+        "type" : "object",
+        "name" : "TestAdmin__T520__CST",
+        "mappingField" : "TestAdmin__num1__CST"
+      } ],
+      "parentId" : "form_0",
+      "expand" : false,
+      "highlightRow" : false,
+      "rootInstanceId" : "form_0",
+      "id" : "form_0_2",
+      "pId" : "form_0_0"
+    } ],
+    "actions" : [ {
+      "name" : "query",
+      "type" : "object",
+      "method" : "query",
+      "uri" : "TestAdmin__T520__CST",
+      "input" : [ ],
+      "output" : [ {
+        "fieldName" : "name",
+        "mappingField" : "name"
+      }, {
+        "fieldName" : "TestAdmin__num1__CST",
+        "mappingField" : "TestAdmin__num1__CST"
+      } ]
+    }, {
+      "name" : "save",
+      "type" : "object",
+      "method" : "save",
+      "uri" : "TestAdmin__T520__CST",
+      "output" : [ ],
+      "input" : [ {
+        "fieldName" : "name",
+        "mappingField" : "name"
+      }, {
+        "fieldName" : "TestAdmin__num1__CST",
+        "mappingField" : "TestAdmin__num1__CST"
+      } ]
+    }, {
+      "name" : "delete",
+      "type" : "object",
+      "method" : "delete",
+      "uri" : "TestAdmin__T520__CST",
+      "output" : [ ],
+      "input" : [ {
+        "fieldName" : "name",
+        "mappingField" : "name"
+      }, {
+        "fieldName" : "TestAdmin__num1__CST",
+        "mappingField" : "TestAdmin__num1__CST"
+      } ]
+    }, {
+      "name" : "count",
+      "type" : "object",
+      "method" : "count",
+      "uri" : "TestAdmin__T520__CST",
+      "input" : [ ],
+      "output" : [ ]
+    } ]
+  },
+  "ts5201" : {
+    "fields" : [ {
+      "name" : "ts5201",
+      "label" : "T520",
+      "type" : "object",
+      "orign" : [ {
+        "type" : "object",
+        "name" : "TestAdmin__T520__CST",
+        "mappingField" : "TestAdmin__T520__CST"
+      } ],
+      "rootInstanceId" : "ts5201",
+      "id" : "ts5201_0",
+      "highlightRow" : false
+    }, {
+      "name" : "id",
+      "label" : "记录 ID",
+      "type" : "xs_string_pk",
+      "isRequired" : true,
+      "orign" : [ {
+        "type" : "object",
+        "name" : "TestAdmin__T520__CST",
+        "mappingField" : "id"
+      } ],
+      "parentId" : "ts5201",
+      "expand" : false,
+      "rootInstanceId" : "ts5201",
+      "id" : "ts5201_1",
+      "highlightRow" : false,
+      "pId" : "ts5201_0"
+    }, {
+      "name" : "name",
+      "label" : "名称",
+      "type" : "xs_string",
+      "isRequired" : false,
+      "orign" : [ {
+        "type" : "object",
+        "name" : "TestAdmin__T520__CST",
+        "mappingField" : "name"
+      } ],
+      "parentId" : "ts5201",
+      "expand" : false,
+      "rootInstanceId" : "ts5201",
+      "id" : "ts5201_2",
+      "highlightRow" : false,
+      "pId" : "ts5201_0"
+    }, {
+      "name" : "TestAdmin__num1__CST",
+      "label" : "num1",
+      "type" : "xs_decimal",
+      "isRequired" : false,
+      "orign" : [ {
+        "type" : "object",
+        "name" : "TestAdmin__T520__CST",
+        "mappingField" : "TestAdmin__num1__CST"
+      } ],
+      "parentId" : "ts5201",
+      "expand" : false,
+      "rootInstanceId" : "ts5201",
+      "id" : "ts5201_3",
+      "highlightRow" : false,
+      "pId" : "ts5201_0"
+    }, {
+      "name" : "createdBy",
+      "label" : "创建人",
+      "type" : "obj_reference",
+      "isRequired" : true,
+      "orign" : [ {
+        "type" : "object",
+        "name" : "TestAdmin__T520__CST",
+        "mappingField" : "createdBy"
+      } ],
+      "parentId" : "ts5201",
+      "expand" : false,
+      "rootInstanceId" : "ts5201",
+      "id" : "ts5201_4",
+      "highlightRow" : false,
+      "pId" : "ts5201_0"
+    }, {
+      "name" : "createdDate",
+      "label" : "创建时间",
+      "type" : "xs_dateTime",
+      "isRequired" : true,
+      "orign" : [ {
+        "type" : "object",
+        "name" : "TestAdmin__T520__CST",
+        "mappingField" : "createdDate"
+      } ],
+      "parentId" : "ts5201",
+      "expand" : false,
+      "rootInstanceId" : "ts5201",
+      "id" : "ts5201_5",
+      "highlightRow" : false,
+      "pId" : "ts5201_0"
+    }, {
+      "name" : "lastModifiedBy",
+      "label" : "最后修改人",
+      "type" : "obj_reference",
+      "isRequired" : false,
+      "orign" : [ {
+        "type" : "object",
+        "name" : "TestAdmin__T520__CST",
+        "mappingField" : "lastModifiedBy"
+      } ],
+      "parentId" : "ts5201",
+      "expand" : false,
+      "rootInstanceId" : "ts5201",
+      "id" : "ts5201_6",
+      "highlightRow" : false,
+      "pId" : "ts5201_0"
+    }, {
+      "name" : "lastModifiedDate",
+      "label" : "最后修改时间",
+      "type" : "xs_dateTime",
+      "isRequired" : false,
+      "orign" : [ {
+        "type" : "object",
+        "name" : "TestAdmin__T520__CST",
+        "mappingField" : "lastModifiedDate"
+      } ],
+      "parentId" : "ts5201",
+      "expand" : false,
+      "rootInstanceId" : "ts5201",
+      "id" : "ts5201_7",
+      "highlightRow" : false,
+      "pId" : "ts5201_0"
+    } ],
+    "actions" : [ {
+      "name" : "query",
+      "type" : "object",
+      "method" : "query",
+      "uri" : "TestAdmin__T520__CST",
+      "input" : [ ],
+      "output" : [ {
+        "fieldName" : "id",
+        "mappingField" : "id"
+      }, {
+        "fieldName" : "name",
+        "mappingField" : "name"
+      }, {
+        "fieldName" : "TestAdmin__num1__CST",
+        "mappingField" : "TestAdmin__num1__CST"
+      }, {
+        "fieldName" : "createdBy",
+        "mappingField" : "createdBy"
+      }, {
+        "fieldName" : "createdDate",
+        "mappingField" : "createdDate"
+      }, {
+        "fieldName" : "lastModifiedBy",
+        "mappingField" : "lastModifiedBy"
+      }, {
+        "fieldName" : "lastModifiedDate",
+        "mappingField" : "lastModifiedDate"
+      } ],
+      "_uid" : 0
+    }, {
+      "name" : "save",
+      "type" : "object",
+      "method" : "save",
+      "uri" : "TestAdmin__T520__CST",
+      "input" : [ {
+        "fieldName" : "id",
+        "mappingField" : "id"
+      }, {
+        "fieldName" : "name",
+        "mappingField" : "name"
+      }, {
+        "fieldName" : "TestAdmin__num1__CST",
+        "mappingField" : "TestAdmin__num1__CST"
+      }, {
+        "fieldName" : "createdBy",
+        "mappingField" : "createdBy"
+      }, {
+        "fieldName" : "createdDate",
+        "mappingField" : "createdDate"
+      }, {
+        "fieldName" : "lastModifiedBy",
+        "mappingField" : "lastModifiedBy"
+      }, {
+        "fieldName" : "lastModifiedDate",
+        "mappingField" : "lastModifiedDate"
+      } ],
+      "output" : [ ],
+      "_uid" : 1
+    }, {
+      "name" : "delete",
+      "type" : "object",
+      "method" : "delete",
+      "uri" : "TestAdmin__T520__CST",
+      "input" : [ {
+        "fieldName" : "id",
+        "mappingField" : "id"
+      }, {
+        "fieldName" : "name",
+        "mappingField" : "name"
+      }, {
+        "fieldName" : "TestAdmin__num1__CST",
+        "mappingField" : "TestAdmin__num1__CST"
+      }, {
+        "fieldName" : "createdBy",
+        "mappingField" : "createdBy"
+      }, {
+        "fieldName" : "createdDate",
+        "mappingField" : "createdDate"
+      }, {
+        "fieldName" : "lastModifiedBy",
+        "mappingField" : "lastModifiedBy"
+      }, {
+        "fieldName" : "lastModifiedDate",
+        "mappingField" : "lastModifiedDate"
+      } ],
+      "output" : [ ],
+      "_uid" : 2
+    }, {
+      "name" : "count",
+      "type" : "object",
+      "method" : "count",
+      "uri" : "TestAdmin__T520__CST",
+      "input" : [ ],
+      "output" : [ ],
+      "_uid" : 3
+    } ]
+  },
+  "table_0_condition" : {
+    "action" : [ ],
+    "fields" : [ {
+      "name" : "table_0_condition",
+      "label" : "table_0_condition",
+      "id" : "table_0_condition_0",
+      "type" : "static",
+      "rootInstanceId" : "table_0_condition",
+      "highlightRow" : false
+    }, {
+      "name" : "pageInfo",
+      "type" : "static",
+      "label" : "pageInfo",
+      "pId" : "table_0_condition_0",
+      "id" : "table_0_condition_1",
+      "parentId" : "table_0_condition",
+      "rootInstanceId" : "table_0_condition",
+      "highlightRow" : false
+    }, {
+      "name" : "curPage",
+      "label" : "curPage",
+      "type" : "static",
+      "parentId" : "pageInfo",
+      "expand" : false,
+      "id" : "table_0_condition_2",
+      "pId" : "table_0_condition_1",
+      "rootInstanceId" : "table_0_condition",
+      "highlightRow" : false
+    }, {
+      "name" : "pageSize",
+      "label" : "pageSize",
+      "type" : "static",
+      "parentId" : "pageInfo",
+      "expand" : false,
+      "id" : "table_0_condition_3",
+      "pId" : "table_0_condition_1",
+      "rootInstanceId" : "table_0_condition",
+      "highlightRow" : false
+    }, {
+      "name" : "total",
+      "label" : "total",
+      "type" : "static",
+      "parentId" : "pageInfo",
+      "expand" : false,
+      "id" : "table_0_condition_4",
+      "pId" : "table_0_condition_1",
+      "rootInstanceId" : "table_0_condition",
+      "highlightRow" : false
+    }, {
+      "name" : "pageSizeOpts",
+      "label" : "pageSizeOpts",
+      "type" : "static",
+      "parentId" : "pageInfo",
+      "expand" : false,
+      "id" : "table_0_condition_5",
+      "pId" : "table_0_condition_1",
+      "rootInstanceId" : "table_0_condition",
+      "highlightRow" : false
+    }, {
+      "name" : "queryInfo",
+      "label" : "queryInfo",
+      "type" : "object",
+      "parentId" : "table_0_condition",
+      "orign" : [ {
+        "type" : "object",
+        "name" : "TestAdmin__T520__CST",
+        "mappingField" : "TestAdmin__T520__CST"
+      } ]
+    }, {
+      "name" : "name",
+      "label" : "名称",
+      "type" : "xs_string",
+      "orign" : [ {
+        "type" : "object",
+        "name" : "TestAdmin__T520__CST",
+        "mappingField" : "name"
+      } ],
+      "parentId" : "queryInfo",
+      "expand" : false
+    }, {
+      "name" : "TestAdmin__num1__CST",
+      "label" : "num1",
+      "type" : "xs_decimal",
+      "orign" : [ {
+        "type" : "object",
+        "name" : "TestAdmin__T520__CST",
+        "mappingField" : "TestAdmin__num1__CST"
+      } ],
+      "parentId" : "queryInfo",
+      "expand" : false
+    } ]
+  }
+}

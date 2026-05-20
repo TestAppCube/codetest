@@ -1,0 +1,34 @@
+{
+	"belongTo": "000f000001WlixyK5Ici",
+	"belongTo.__objectType": "Application",
+	"belongTo.name": "TestAdmin__cdoetest520",
+	"category": "",
+	"createdDate": "2026-05-20 06:43:01",
+	"custom": true,
+	"customAPIs": [
+		{
+			"belongTo": null,
+			"createdDate": "2026-05-20 06:43:26",
+			"custom": true,
+			"fromInstall": null,
+			"id": "0035000001WlwchXT0Nc",
+			"lastModifiedDate": "2026-05-20 06:43:26",
+			"method": "POST",
+			"name": null,
+			"permission": "qx520",
+			"protectMode": 0,
+			"url": "/service/TestAdmin__cdoetest520/1.0.0/add520api",
+			"visibility": 0
+		}
+	],
+	"description": "",
+	"fromInstall": null,
+	"id": "0034000001WlwatTbPaS",
+	"label": "qx520",
+	"lastModifiedDate": "2026-05-20 06:43:01",
+	"name": "qx520",
+	"newPermission": false,
+	"parent": "",
+	"protectMode": 0,
+	"visibility": 0
+}

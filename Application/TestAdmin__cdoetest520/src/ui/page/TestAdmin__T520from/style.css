@@ -1,0 +1,40 @@
+/* Recommended builtin styles, generally there is no need to be modified */
+html, body {
+    height: 100%;
+}
+
+.xview-designer-page {
+    overflow: auto;
+}
+
+@media (min-width: 992px) {
+    .ivu-row .ivu-col:first-child {
+        padding-left: 0;
+    }
+
+    .ivu-row .ivu-col:last-child {
+        padding-right: 0;
+    }
+}
+
+.ivu-form-item {
+    padding: 0;
+}
+
+.xview-container>.ivu-input-wrapper {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ivu-btn-large {
+    padding: 9px 30px !important;
+}
+
+.ivu-row>.ivu-col>.ivu-btn-large {
+    margin-top: 10px;
+}
+
+.ivu-form>.ivu-row>.ivu-col>.ivu-btn-large {
+    margin-top: 30px;
+}
+/* --------------------------------------------------------------------- */

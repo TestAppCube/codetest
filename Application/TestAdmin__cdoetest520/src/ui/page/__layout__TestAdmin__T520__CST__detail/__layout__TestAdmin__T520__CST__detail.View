@@ -1,0 +1,455 @@
+{
+	"active": false,
+	"application": null,
+	"belongTo": "000f000001WlixyK5Ici",
+	"belongTo.__objectType": "Application",
+	"belongTo.name": "TestAdmin__cdoetest520",
+	"createdDate": "2026-05-20 04:03:48",
+	"custom": true,
+	"customStyle": null,
+	"description": null,
+	"events": [
+		{
+			"action": [
+				{
+					"options": {
+						"content": "// Current Component\r\nlet _component = context.getCurrentComponent()\r\n\r\n// Current Form\r\nlet  _form = _component.getForm()\r\n\r\n_form.formSave()\r\n"
+					},
+					"type": "$core.execJSCode"
+				}
+			],
+			"belongTo": null,
+			"createdDate": "2026-05-20 06:27:42",
+			"custom": true,
+			"fromInstall": null,
+			"id": "003h000001WlvUzXLjMm",
+			"lastModifiedDate": "2026-05-20 06:27:42",
+			"name": "button_0_click",
+			"protectMode": 0,
+			"view": "003g000001WllDQs8oyG",
+			"view.__objectType": "View",
+			"view.name": "__layout__TestAdmin__T520__CST__detail",
+			"visibility": 0
+		},
+		{
+			"action": [
+				{
+					"options": {
+						"content": "// Current Component\r\nlet _component = context.getCurrentComponent()\r\n\r\n// Current Form\r\nlet  _form = _component.getForm()\r\n\r\n_form.resetFields()\r\n"
+					},
+					"type": "$core.execJSCode"
+				}
+			],
+			"belongTo": null,
+			"createdDate": "2026-05-20 06:27:42",
+			"custom": true,
+			"fromInstall": null,
+			"id": "003h000001WlvUzXLjMn",
+			"lastModifiedDate": "2026-05-20 06:27:42",
+			"name": "button_1_click",
+			"protectMode": 0,
+			"view": "003g000001WllDQs8oyG",
+			"view.__objectType": "View",
+			"view.name": "__layout__TestAdmin__T520__CST__detail",
+			"visibility": 0
+		}
+	],
+	"fromInstall": null,
+	"id": "003g000001WllDQs8oyG",
+	"label": "TestAdmin__T520__CST Detail",
+	"lastModifiedDate": "2026-05-20 06:27:42",
+	"layer": "null",
+	"libraries": "[]",
+	"logo": null,
+	"name": "__layout__TestAdmin__T520__CST__detail",
+	"overridable": true,
+	"pageType": null,
+	"protectMode": 0,
+	"referencePageId": null,
+	"type": "Page",
+	"version": "1.0.2",
+	"viewData": {
+		"dependencies": [
+			{
+				"names": {
+					"cardNames": [],
+					"extendNames": [],
+					"pageMasterNames": []
+				}
+			}
+		],
+		"elements": [
+			{
+				"attrs": {},
+				"dataBinding": {
+					"default": {
+						"model": [
+							"form_0"
+						]
+					}
+				},
+				"elements": [
+					{
+						"attrs": {},
+						"elements": [],
+						"key": 1535715199303019,
+						"on": {},
+						"props": {
+							"class": "form-title-container",
+							"name": "title_1",
+							"text": "T520",
+							"value": "T520"
+						},
+						"type": "title"
+					},
+					{
+						"attrs": {},
+						"elements": [
+							{
+								"attrs": {},
+								"elements": [
+									{
+										"attrs": {},
+										"elements": [
+											{
+												"attrs": {},
+												"elements": [
+													{
+														"dataBinding": {
+															"default": {
+																"model": [
+																	"form_0",
+																	"name"
+																]
+															}
+														},
+														"key": 1957184307900802,
+														"props": {
+															"dataField": "name",
+															"dataFieldType": "xs_string",
+															"label": "名称",
+															"maxlength": 64,
+															"name": "input_1779258461729",
+															"readonly": false,
+															"required": false,
+															"type": "text"
+														},
+														"type": "input"
+													}
+												],
+												"key": 1957184307900801,
+												"on": {},
+												"props": {
+													"align": "left",
+													"lg": 8,
+													"md": 8,
+													"name": "col_3",
+													"sm": 24,
+													"xs": 24
+												},
+												"type": "col"
+											},
+											{
+												"attrs": {},
+												"elements": [
+													{
+														"dataBinding": {
+															"default": {
+																"model": [
+																	"form_0",
+																	"TestAdmin__num1__CST"
+																]
+															}
+														},
+														"key": 1957184307900804,
+														"props": {
+															"dataField": "TestAdmin__num1__CST",
+															"dataFieldType": "xs_decimal",
+															"label": "num1",
+															"max": 1000000000000000000,
+															"min": -1000000000000000000,
+															"name": "inputnumber_1779258461729",
+															"precision": 2,
+															"required": false,
+															"step": 0
+														},
+														"type": "inputnumber"
+													}
+												],
+												"key": 1957184307900803,
+												"on": {},
+												"props": {
+													"align": "left",
+													"lg": 8,
+													"md": 8,
+													"name": "col_3",
+													"sm": 24,
+													"xs": 24
+												},
+												"type": "col"
+											}
+										],
+										"key": 1957184307900800,
+										"on": {},
+										"props": {
+											"layout": {
+												"pad": {
+													"key": "pad1",
+													"value": [
+														24
+													]
+												},
+												"pc": {
+													"key": "one_one_one",
+													"value": [
+														8,
+														8,
+														8
+													]
+												},
+												"phone": {
+													"key": "phone1",
+													"value": [
+														24
+													]
+												}
+											},
+											"name": "row_0"
+										},
+										"type": "row"
+									}
+								],
+								"key": 1535715199303036,
+								"on": {},
+								"props": {
+									"name": "layoutgrid_1"
+								},
+								"type": "layoutgrid"
+							},
+							{
+								"attrs": {},
+								"elements": [
+									{
+										"attrs": {},
+										"elements": [],
+										"key": 1535946611880036,
+										"on": {
+											"click": {
+												"actions": [
+													{
+														"options": {
+															"content": "// Current Component\r\nlet _component = context.getCurrentComponent()\r\n\r\n// Current Form\r\nlet  _form = _component.getForm()\r\n\r\n_form.formSave()\r\n"
+														},
+														"type": "$core.execJSCode"
+													}
+												],
+												"graph": "",
+												"serviceList": []
+											}
+										},
+										"props": {
+											"name": "button_0",
+											"style": "margin-right:20px;",
+											"text": "{\"en_US\":\"Save\",\"fr_FR\":\"\",\"ja_JP\":\"\",\"zh_CN\":\"保存\"}",
+											"type": "primary"
+										},
+										"type": "button"
+									},
+									{
+										"attrs": {},
+										"elements": [],
+										"key": 1535946611880037,
+										"on": {
+											"click": {
+												"actions": [
+													{
+														"options": {
+															"content": "// Current Component\r\nlet _component = context.getCurrentComponent()\r\n\r\n// Current Form\r\nlet  _form = _component.getForm()\r\n\r\n_form.resetFields()\r\n"
+														},
+														"type": "$core.execJSCode"
+													}
+												],
+												"graph": "",
+												"serviceList": []
+											}
+										},
+										"props": {
+											"name": "button_1",
+											"style": "",
+											"text": "{\"en_US\":\"Reset\",\"fr_FR\":\"\",\"ja_JP\":\"\",\"zh_CN\":\"重置\"}"
+										},
+										"type": "button"
+									}
+								],
+								"key": 1535946611880038,
+								"on": {},
+								"props": {
+									"align": "center",
+									"class": "form-buttons-container",
+									"name": "container_1"
+								},
+								"type": "container"
+							}
+						],
+						"key": 1535715199303039,
+						"on": {},
+						"props": {
+							"name": "container_1"
+						},
+						"type": "container"
+					}
+				],
+				"key": 1538107283948000,
+				"on": {},
+				"props": {
+					"dataSource": "TestAdmin__T520__CST",
+					"dataSourceId": "TestAdmin__T520__CST",
+					"dataSourceType": "Entity",
+					"labelPosition": "top",
+					"labelWidth": 120,
+					"layout": {
+						"key": "one_one_one",
+						"value": [
+							8,
+							8,
+							8
+						]
+					},
+					"name": "form_0"
+				},
+				"type": "form"
+			}
+		],
+		"key": 1,
+		"props": {
+			"name": "DesignerPage_1"
+		},
+		"type": "DesignerPage",
+		"version": "1.0.2"
+	},
+	"viewModel": {
+		"form_0": {
+			"actions": [
+				{
+					"input": [],
+					"method": "query",
+					"name": "query",
+					"output": [
+						{
+							"fieldName": "name",
+							"mappingField": "name"
+						},
+						{
+							"fieldName": "TestAdmin__num1__CST",
+							"mappingField": "TestAdmin__num1__CST"
+						}
+					],
+					"type": "object",
+					"uri": "TestAdmin__T520__CST"
+				},
+				{
+					"input": [
+						{
+							"fieldName": "name",
+							"mappingField": "name"
+						},
+						{
+							"fieldName": "TestAdmin__num1__CST",
+							"mappingField": "TestAdmin__num1__CST"
+						}
+					],
+					"method": "save",
+					"name": "save",
+					"output": [],
+					"type": "object",
+					"uri": "TestAdmin__T520__CST"
+				},
+				{
+					"input": [
+						{
+							"fieldName": "name",
+							"mappingField": "name"
+						},
+						{
+							"fieldName": "TestAdmin__num1__CST",
+							"mappingField": "TestAdmin__num1__CST"
+						}
+					],
+					"method": "delete",
+					"name": "delete",
+					"output": [],
+					"type": "object",
+					"uri": "TestAdmin__T520__CST"
+				},
+				{
+					"input": [],
+					"method": "count",
+					"name": "count",
+					"output": [],
+					"type": "object",
+					"uri": "TestAdmin__T520__CST"
+				}
+			],
+			"fields": [
+				{
+					"_uid": 0,
+					"defaultValue": {},
+					"expand": false,
+					"isRequired": false,
+					"label": "form_0",
+					"name": "form_0",
+					"orign": [
+						{
+							"mappingField": "TestAdmin__T520__CST",
+							"name": "TestAdmin__T520__CST",
+							"type": "TestAdmin__T520__CST"
+						}
+					],
+					"rootInstanceId": "form_0",
+					"type": "object"
+				},
+				{
+					"_uid": 1,
+					"expand": false,
+					"label": "名称",
+					"name": "name",
+					"orign": [
+						{
+							"mappingField": "name",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"parentId": "form_0",
+					"rootInstanceId": "form_0",
+					"type": "xs_string"
+				},
+				{
+					"_uid": 2,
+					"expand": false,
+					"label": "num1",
+					"name": "TestAdmin__num1__CST",
+					"orign": [
+						{
+							"mappingField": "TestAdmin__num1__CST",
+							"name": "TestAdmin__T520__CST",
+							"type": "object"
+						}
+					],
+					"parentId": "form_0",
+					"rootInstanceId": "form_0",
+					"type": "xs_decimal"
+				}
+			],
+			"mapping": [
+				{
+					"bindName": "TestAdmin__T520__CST",
+					"bindType": "object",
+					"exclude": "",
+					"include": "ALL"
+				}
+			]
+		}
+	},
+	"visibility": 0
+}

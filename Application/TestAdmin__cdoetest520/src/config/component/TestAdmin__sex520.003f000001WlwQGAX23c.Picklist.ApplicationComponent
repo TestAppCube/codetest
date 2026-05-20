@@ -1,0 +1,18 @@
+{
+	"appId": "000f000001WlixyK5Ici",
+	"appId.__objectType": "Application",
+	"appId.name": "TestAdmin__cdoetest520",
+	"belongTo": null,
+	"category": null,
+	"createdDate": "2026-05-20 06:40:37",
+	"custom": true,
+	"fromInstall": null,
+	"id": "003f000001WlwQGAX23c",
+	"lastModifiedDate": "2026-05-20 06:40:37",
+	"name": "TestAdmin__sex520",
+	"parent": "",
+	"protectMode": 0,
+	"seqNo": null,
+	"type": "Picklist",
+	"visibility": 0
+}

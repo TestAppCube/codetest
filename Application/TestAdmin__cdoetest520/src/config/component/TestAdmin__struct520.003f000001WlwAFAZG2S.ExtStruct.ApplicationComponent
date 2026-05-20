@@ -1,0 +1,20 @@
+{
+	"appId": "000f000001WlixyK5Ici",
+	"appId.__objectType": "Application",
+	"appId.name": "TestAdmin__cdoetest520",
+	"belongTo": null,
+	"category": null,
+	"createdDate": "2026-05-20 06:37:00",
+	"custom": true,
+	"fromInstall": null,
+	"id": "003f000001WlwAFAZG2S",
+	"lastModifiedDate": "2026-05-20 06:37:00",
+	"name": "TestAdmin__struct520",
+	"parent": "003f000000kxaz1iXBOi",
+	"parent.__objectType": "ApplicationComponent",
+	"parent.name": "",
+	"protectMode": 0,
+	"seqNo": null,
+	"type": "ExtStruct",
+	"visibility": 0
+}
