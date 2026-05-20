@@ -1,0 +1,21 @@
+{
+	"belongTo": null,
+	"category": null,
+	"createdDate": "2026-05-20 06:12:36",
+	"custom": true,
+	"fromInstall": null,
+	"id": "0007000001WluQ8eMQLo",
+	"itemID": "TestAdmin__bots520",
+	"lastModifiedDate": "2026-05-20 06:12:36",
+	"name": "TestAdmin__bots520",
+	"parent": "003f000000kxaz1iXBOi",
+	"parent.__objectType": "ServiceItem",
+	"parent.name": "",
+	"protectMode": 0,
+	"seqNo": null,
+	"serviceID": "0006000001WluMVAbyGO",
+	"serviceID.__objectType": "Service",
+	"serviceID.name": "TestAdmin__bocode520",
+	"type": "Script",
+	"visibility": 0
+}
