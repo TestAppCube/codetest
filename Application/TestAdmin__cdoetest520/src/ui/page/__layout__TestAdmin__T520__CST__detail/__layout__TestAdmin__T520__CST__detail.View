@@ -19,11 +19,11 @@
 				}
 			],
 			"belongTo": null,
-			"createdDate": "2026-05-20 07:40:00",
+			"createdDate": "2026-05-20 07:42:30",
 			"custom": true,
 			"fromInstall": null,
-			"id": "003h000001Wm0fNcxoHo",
-			"lastModifiedDate": "2026-05-20 07:40:00",
+			"id": "003h000001Wm0qS6hUnY",
+			"lastModifiedDate": "2026-05-20 07:42:30",
 			"name": "button_0_click",
 			"protectMode": 0,
 			"view": "003g000001WllDQs8oyG",
@@ -41,11 +41,11 @@
 				}
 			],
 			"belongTo": null,
-			"createdDate": "2026-05-20 07:40:00",
+			"createdDate": "2026-05-20 07:42:30",
 			"custom": true,
 			"fromInstall": null,
-			"id": "003h000001Wm0fNcxoHp",
-			"lastModifiedDate": "2026-05-20 07:40:00",
+			"id": "003h000001Wm0qS6hUnZ",
+			"lastModifiedDate": "2026-05-20 07:42:30",
 			"name": "button_1_click",
 			"protectMode": 0,
 			"view": "003g000001WllDQs8oyG",
@@ -57,7 +57,7 @@
 	"fromInstall": null,
 	"id": "003g000001WllDQs8oyG",
 	"label": "TestAdmin__T520__CST Detail",
-	"lastModifiedDate": "2026-05-20 07:40:00",
+	"lastModifiedDate": "2026-05-20 07:42:30",
 	"layer": "null",
 	"libraries": "[]",
 	"logo": null,
@@ -67,7 +67,7 @@
 	"protectMode": 0,
 	"referencePageId": null,
 	"type": "Page",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"viewData": {
 		"dependencies": [
 			{
@@ -123,13 +123,13 @@
 																]
 															}
 														},
-														"key": 1957189080965802,
+														"key": 1957189245863502,
 														"props": {
 															"dataField": "name",
 															"dataFieldType": "xs_string",
 															"label": "名称",
 															"maxlength": 64,
-															"name": "input_1779262800878",
+															"name": "input_1779262950785",
 															"readonly": false,
 															"required": false,
 															"type": "text"
@@ -137,7 +137,7 @@
 														"type": "input"
 													}
 												],
-												"key": 1957189080965801,
+												"key": 1957189245863501,
 												"on": {},
 												"props": {
 													"align": "left",
@@ -161,22 +161,22 @@
 																]
 															}
 														},
-														"key": 1957189080965804,
+														"key": 1957189245863504,
 														"props": {
 															"dataField": "TestAdmin__num1__CST",
 															"dataFieldType": "xs_decimal",
 															"label": "num1",
 															"max": 1000000000000000000,
 															"min": -1000000000000000000,
-															"name": "inputnumber_1779262800878",
-															"precision": 2,
+															"name": "inputnumber_1779262950785",
+															"precision": 3,
 															"required": false,
 															"step": 0
 														},
 														"type": "inputnumber"
 													}
 												],
-												"key": 1957189080965803,
+												"key": 1957189245863503,
 												"on": {},
 												"props": {
 													"align": "left",
@@ -200,7 +200,7 @@
 																]
 															}
 														},
-														"key": 1957189080965806,
+														"key": 1957189245863506,
 														"props": {
 															"clearable": true,
 															"dataField": "TestAdmin__sex__CST",
@@ -208,16 +208,25 @@
 															"filterable": true,
 															"label": "sex",
 															"multiSelect": false,
-															"name": "select_1779262800878",
+															"name": "select_1779262950785",
+															"option": [
+																{
+																	"display": "1",
+																	"value": "1"
+																},
+																{
+																	"display": "2",
+																	"value": "2"
+																}
+															],
 															"picklist": "0004000001WlwQDgOqQa",
-															"picklistName": "TestAdmin__sex520",
 															"required": false,
 															"transfer": true
 														},
 														"type": "select"
 													}
 												],
-												"key": 1957189080965805,
+												"key": 1957189245863505,
 												"on": {},
 												"props": {
 													"align": "left",
@@ -230,7 +239,7 @@
 												"type": "col"
 											}
 										],
-										"key": 1957189080965800,
+										"key": 1957189245863500,
 										"on": {},
 										"props": {
 											"layout": {
